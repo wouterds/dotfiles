@@ -1,0 +1,34 @@
+[user]
+	name = wouterds
+	email = wouter.de.schuyter@gmail.com
+
+[alias]
+	diff = diff --color --color-words --abbrev
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(blue) <%an>%Creset' --abbrev-commit
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	contributors = shortlog --summary --numbered
+
+[apply]
+	whitespace = fix
+
+[core]
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+	trustctime = false
+	precomposeunicode = false
+
+[color]
+	ui = always
+
+[diff]
+	renames = copies
+
+[diff "bin"]
+	textconv = hexdump -v -C
+
+[push]
+	default = simple
+	followTags = true
