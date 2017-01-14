@@ -17,12 +17,6 @@ cd dotfiles
 ```
 
 
-### Sensible OS X defaults
-
-When setting up a new Mac, you may want to set some sensible OS X defaults:
-
-`./osx.sh` **or** `./macos.sh`
-
 ### Install Homebrew formulae
 
 When setting up a new Mac, you may want to install some common Homebrew formulae:
