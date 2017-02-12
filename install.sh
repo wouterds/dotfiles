@@ -90,3 +90,6 @@ brew install thefuck
 echo '' >> ~/.aliases
 echo '# Fuck alias' >> ~/.aliases
 echo 'eval "$(thefuck --alias)"' >> ~/.aliases
+
+# Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
