@@ -37,7 +37,7 @@ brew install node
 brew install python
 brew install python3
 brew install cask
-brew install josegonzalez/php/php55
+brew install josegonzalez/php/php71
 brew install josegonzalez/php/composer
 
 # Remove outdated versions from the cellar
