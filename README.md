@@ -1,10 +1,6 @@
 # Wouter's dotfiles ❤ ~/
 
-My personal dotfiles, preferences & defaults for OS X & macOS.
-
-## Requirements
-
-- Homebrew installed
+My personal apps, dotfiles, preferences & defaults for macOS.
 
 ## Installation
 
@@ -13,28 +9,5 @@ My personal dotfiles, preferences & defaults for OS X & macOS.
 ```bash
 git clone https://github.com/wouterds/dotfiles.git
 cd dotfiles
-./bootstrap.sh
-```
-
-
-### Install Homebrew formulae
-
-When setting up a new Mac, you may want to install some common Homebrew formulae:
-
-```bash
-./brew.sh
-```
-
-### Install some Apps with Homebrew Cask
-
-When setting up a new Mac, you may want to install some essential apps:
-
-```bash
-./brew-install-apps.sh
-```
-
-### Some other little handy tweaks
-
-```bash
-./other-tweaks.sh
+./install.sh
 ```
