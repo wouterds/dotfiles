@@ -361,11 +361,11 @@
 	<key>UseBrightBold</key>
 	<true/>
 	<key>columnCount</key>
-	<integer>100</integer>
+	<integer>80</integer>
 	<key>name</key>
-	<string>wouterds</string>
+	<string>WouterDS-Flatspace</string>
 	<key>rowCount</key>
-	<integer>25</integer>
+	<integer>24</integer>
 	<key>shellExitAction</key>
 	<integer>1</integer>
 	<key>type</key>
