@@ -56,6 +56,24 @@ brew install josegonzalez/php/composer
 brew install mas
 brew install cask
 
+# Cleanup
+brew cleanup
+
+# Cat with syntax highlighting
+easy_install Pygments
+echo '' >> ~/.aliases
+echo '# Cat with syntax highlighting' >> ~/.aliases
+echo 'alias cat="pygmentize -g"' >> ~/.aliases
+
+# The fuck
+brew install thefuck
+echo '' >> ~/.aliases
+echo '# Fuck alias' >> ~/.aliases
+echo 'eval "$(thefuck --alias)"' >> ~/.aliases
+
+# Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Caskroom versions
 brew tap caskroom/versions
 
@@ -87,17 +105,18 @@ brew cask install bartender --appdir=/Applications
 # Cleanup
 brew cleanup
 
-# Cat with syntax highlighting
-easy_install Pygments
-echo '' >> ~/.aliases
-echo '# Cat with syntax highlighting' >> ~/.aliases
-echo 'alias cat="pygmentize -g"' >> ~/.aliases
-
-# The fuck
-brew install thefuck
-echo '' >> ~/.aliases
-echo '# Fuck alias' >> ~/.aliases
-echo 'eval "$(thefuck --alias)"' >> ~/.aliases
-
-# Oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# Install Mac App Store apps
+mas install 443987910 # 1Password
+mas install 497799835 # Xcode
+mas install 425424353 # The Unarchiver
+mas install 1020812363 # CopyClip 2
+mas install 443987910 # 1Password
+mas install 411643860 # DaisyDisk
+mas install 1054607607 # Helium
+mas install 409789998 # Twitter
+mas install 457622435 # Yoink
+mas install 507257563 # Sip
+mas install 880001334 # Reeder
+mas install 409183694 # Keynote
+mas install 409201541 # Pages
+mas install 409203825 # Numbers
