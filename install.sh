@@ -114,6 +114,7 @@ mas install 443987910 # 1Password
 mas install 411643860 # DaisyDisk
 mas install 1054607607 # Helium
 mas install 409789998 # Twitter
+mas install 803453959 # Slack
 mas install 457622435 # Yoink
 mas install 507257563 # Sip
 mas install 880001334 # Reeder
