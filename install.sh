@@ -28,6 +28,7 @@ brew tap homebrew/versions
 # Basics
 brew install bash
 brew install zsh
+brew install zsh-completions
 
 # Install more recent versions of some OS X tools
 brew install homebrew/dupes/nano
