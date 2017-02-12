@@ -41,11 +41,11 @@ brew install coreutils
 brew install findutils
 
 # Some other def tools that are handy
+brew install ruby
+brew install curl
 brew install wget --with-iri
 brew install git
 brew install ssh-copy-id
-brew install ruby
-brew install curl
 brew install autoconf
 brew install node
 brew install python
