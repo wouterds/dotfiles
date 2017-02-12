@@ -62,6 +62,3 @@ brew cask install vlc --appdir=/Applications
 
 # Bartender
 brew cask install bartender --appdir=/Applications
-
-# Charles
-brew cask install charles --appdir=/Applications
