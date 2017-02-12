@@ -58,8 +58,9 @@ brew install cask
 brew tap caskroom/versions
 
 # Install some apps
-brew cask install dropbox --appdir=/Applications
+brew cask install google-chrome --appdir=/Applications
 brew cask install google-drive --appdir=/Applications
+brew cask install dropbox --appdir=/Applications
 brew cask install keepingyouawake --appdir=/Applications
 brew cask install docker --appdir=/Applications
 brew cask install atom --appdir=/Applications
