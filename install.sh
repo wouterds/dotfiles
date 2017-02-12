@@ -56,24 +56,6 @@ brew install josegonzalez/php/composer
 brew install mas
 brew install cask
 
-# Cleanup
-brew cleanup
-
-# Cat with syntax highlighting
-easy_install Pygments
-echo '' >> ~/.aliases
-echo '# Cat with syntax highlighting' >> ~/.aliases
-echo 'alias cat="pygmentize -g"' >> ~/.aliases
-
-# The fuck
-brew install thefuck
-echo '' >> ~/.aliases
-echo '# Fuck alias' >> ~/.aliases
-echo 'eval "$(thefuck --alias)"' >> ~/.aliases
-
-# Oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Caskroom versions
 brew tap caskroom/versions
 
@@ -102,9 +84,6 @@ brew cask install rescuetime --appdir=/Applications
 brew cask install vlc --appdir=/Applications
 brew cask install bartender --appdir=/Applications
 
-# Cleanup
-brew cleanup
-
 # Install Mac App Store apps
 mas install 443987910 # 1Password
 mas install 497799835 # Xcode
@@ -121,6 +100,24 @@ mas install 880001334 # Reeder
 mas install 409183694 # Keynote
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
+
+# Cleanup
+brew cleanup
+
+# Cat with syntax highlighting
+easy_install Pygments
+echo '' >> ~/.aliases
+echo '# Cat with syntax highlighting' >> ~/.aliases
+echo 'alias cat="pygmentize -g"' >> ~/.aliases
+
+# The fuck
+brew install thefuck
+echo '' >> ~/.aliases
+echo '# Fuck alias' >> ~/.aliases
+echo 'eval "$(thefuck --alias)"' >> ~/.aliases
+
+# Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ###############################################################################
 # macOS preferences                                                           #
