@@ -50,9 +50,9 @@ brew install autoconf
 brew install node
 brew install python
 brew install python3
-brew install cask
 brew install josegonzalez/php/php71
 brew install josegonzalez/php/composer
+brew install cask
 
 # Caskroom versions
 brew tap caskroom/versions
