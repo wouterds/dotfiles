@@ -60,9 +60,6 @@ brew cask install rescuetime --appdir=/Applications
 # VideoLanPlayer (aka VLC)
 brew cask install vlc --appdir=/Applications
 
-# Microsoft Silverlight
-brew cask install silverlight --appdir=/Applications
-
 # Bartender
 brew cask install bartender --appdir=/Applications
 
