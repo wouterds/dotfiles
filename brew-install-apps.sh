@@ -48,9 +48,6 @@ brew cask install kibako --appdir=/Applications
 # Alfred
 brew cask install alfred --appdir=/Applications
 
-# Steelseries
-brew cask install steelseries-engine --appdir=/Applications
-
 # Knock to unlock
 brew cask install knock --appdir=/Applications
 
