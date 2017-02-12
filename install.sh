@@ -22,10 +22,12 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade --all
 
+# Brew versions
+brew tap homebrew/versions
+
 # Basics
 brew install bash
 brew install zsh
-brew tap homebrew/versions
 
 # Install more recent versions of some OS X tools
 brew install homebrew/dupes/nano
@@ -47,5 +49,32 @@ brew install cask
 brew install josegonzalez/php/php71
 brew install josegonzalez/php/composer
 
-# Remove outdated versions from the cellar
+# Caskroom versions
+brew tap caskroom/versions
+
+# Install some apps
+brew cask install dropbox --appdir=/Applications
+brew cask install google-drive --appdir=/Applications
+brew cask install keepingyouawake --appdir=/Applications
+brew cask install docker --appdir=/Applications
+brew cask install atom --appdir=/Applications
+brew cask install phpstorm --appdir=/Applications
+brew cask install spotify --appdir=/Applications
+brew cask install spotify-notifications --appdir=/Applications
+brew cask install skype --appdir=/Applications
+brew cask install transmission --appdir=/Applications
+brew cask install spectacle --appdir=/Applications
+brew cask install viscosity --appdir=/Applications
+brew cask install sequel-pro-nightly --appdir=/Applications
+brew cask install smcfancontrol --appdir=/Applications
+brew cask install sketch --appdir=/Applications
+brew cask install kibako --appdir=/Applications
+brew cask install alfred --appdir=/Applications
+brew cask install knock --appdir=/Applications
+brew cask install application-loader --appdir=/Applications
+brew cask install rescuetime --appdir=/Applications
+brew cask install vlc --appdir=/Applications
+brew cask install bartender --appdir=/Applications
+
+# Cleanup
 brew cleanup
