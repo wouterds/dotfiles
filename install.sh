@@ -166,6 +166,9 @@ defaults write com.apple.finder ShowPathbar -bool true
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Remove dock delay when hiding
+defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+
 # Disable local Time Machine snapshots
 sudo tmutil disablelocal
 
