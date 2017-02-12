@@ -127,6 +127,13 @@ echo 'eval "$(thefuck --alias)"' >> ~/.aliases
 # Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+
+# Ask for the administrator password upfront.
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until the script has finished.
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 ###############################################################################
 # macOS preferences                                                           #
 ###############################################################################
@@ -167,7 +174,7 @@ defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.dock autohide -bool true
 
 # Remove dock delay when hiding
-defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+defaults write com.apple.Dock autohide-delay -float 0
 
 # Disable local Time Machine snapshots
 sudo tmutil disablelocal
@@ -175,6 +182,7 @@ sudo tmutil disablelocal
 # Use scroll gesture with the Ctrl (^) modifier key to zoom
 defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
 defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+
 # Follow the keyboard focus while zoomed in
 defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
