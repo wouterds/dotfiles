@@ -120,3 +120,13 @@ mas install 880001334 # Reeder
 mas install 409183694 # Keynote
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
+
+###############################################################################
+# macOS preferences                                                           #
+###############################################################################
+
+# Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
+defaults write com.apple.finder QuitMenuItem -bool true
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
