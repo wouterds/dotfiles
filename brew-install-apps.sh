@@ -6,6 +6,9 @@ brew tap caskroom/versions
 # Dropbox
 brew cask install dropbox --appdir=/Applications
 
+# Google Drive
+brew cask install google-drive --appdir=/Applications
+
 # Keeping You Awake
 brew cask install keepingyouawake --appdir=/Applications
 
