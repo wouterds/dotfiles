@@ -84,6 +84,11 @@ brew cask install rescuetime --appdir=/Applications
 brew cask install vlc --appdir=/Applications
 brew cask install bartender --appdir=/Applications
 
+# Fonts
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-hack'
+
 # Install Mac App Store apps
 mas install 443987910 # 1Password
 mas install 497799835 # Xcode
