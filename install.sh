@@ -44,6 +44,7 @@ brew install findutils
 brew install ruby
 brew install curl
 brew install wget --with-iri
+brew install htop
 brew install git
 brew install ssh-copy-id
 brew install autoconf
@@ -52,6 +53,7 @@ brew install python
 brew install python3
 brew install josegonzalez/php/php71
 brew install josegonzalez/php/composer
+brew install mas
 brew install cask
 
 # Caskroom versions
