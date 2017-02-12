@@ -9,11 +9,6 @@ brew cask install dropbox --appdir=/Applications
 # Keeping You Awake
 brew cask install keepingyouawake --appdir=/Applications
 
-# Virtual box & Vagrant Manager
-brew cask install virtualbox --appdir=/Applications
-brew cask install vagrant
-brew cask install vagrant-manager --appdir=/Applications
-
 # Atom
 brew cask install atom --appdir=/Applications
 
