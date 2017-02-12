@@ -12,6 +12,9 @@ brew cask install google-drive --appdir=/Applications
 # Keeping You Awake
 brew cask install keepingyouawake --appdir=/Applications
 
+# Docker
+brew cask install docker --appdir=/Applications
+
 # Atom
 brew cask install atom --appdir=/Applications
 
