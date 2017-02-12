@@ -36,6 +36,10 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
+# Install GNU core utilities (those that come with macOS are outdated)
+brew install coreutils
+brew install findutils
+
 # Some other def tools that are handy
 brew install wget --with-iri
 brew install git
