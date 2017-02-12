@@ -12,9 +12,6 @@ brew cask install keepingyouawake --appdir=/Applications
 # Atom
 brew cask install atom --appdir=/Applications
 
-# Sublime text
-brew cask install sublime-text --appdir=/Applications
-
 # PHPStorm
 brew cask install phpstorm --appdir=/Applications
 
