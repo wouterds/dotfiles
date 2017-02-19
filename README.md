@@ -9,5 +9,40 @@ My personal apps, dotfiles, preferences & defaults for macOS.
 ```bash
 git clone https://github.com/wouterds/dotfiles.git
 cd dotfiles
+```
+
+### Install everything
+
+```bash
 ./install.sh
+```
+
+### Install mac os preferences
+
+```bash
+./install-macos-preferences.sh
+```
+
+### Install fonts
+
+```bash
+./install-brew-fonts.sh
+```
+
+### Install binaries
+
+```bash
+./install-brew-binaries.sh
+```
+
+### Install apps
+
+```bash
+./install-brew-apps.sh
+```
+
+### Install store apps
+
+```bash
+./install-brew-store-apps.sh
 ```
