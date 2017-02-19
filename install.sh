@@ -227,6 +227,7 @@ brew cask install application-loader --appdir=/Applications
 brew cask install rescuetime --appdir=/Applications
 brew cask install vlc --appdir=/Applications
 brew cask install bartender --appdir=/Applications
+brew cask install fanny --appdir=/Applications
 
 # Fonts
 brew cask install caskroom/fonts/font-open-sans
