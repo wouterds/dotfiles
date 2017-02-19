@@ -228,6 +228,7 @@ brew cask install rescuetime --appdir=/Applications
 brew cask install vlc --appdir=/Applications
 brew cask install bartender --appdir=/Applications
 brew cask install fanny --appdir=/Applications
+brew cask install transmit --appdir=/Applications
 
 # Fonts
 brew cask install caskroom/fonts/font-open-sans
