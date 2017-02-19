@@ -36,7 +36,7 @@ rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "READM
 	--exclude "install-brew-apps.sh" \
 	--exclude "install-brew-binaries.sh" \
 	--exclude "install-brew-fonts.sh" \
-	--exclude "install-brew-mac-apps.sh" \
+	--exclude "install-brew-store-apps.sh" \
 	--exclude "install-brew-other.sh" \
 	--exclude "install-macos-preferences.sh" \
 	-avh --no-perms . ~;
