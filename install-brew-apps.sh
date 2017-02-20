@@ -38,6 +38,7 @@ brew cask install vlc --appdir=/Applications
 brew cask install bartender --appdir=/Applications
 brew cask install fanny --appdir=/Applications
 brew cask install transmit --appdir=/Applications
+brew cask install hipchat --apdir=/Applications
 
 # Cleanup
 brew cleanup
