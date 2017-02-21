@@ -26,6 +26,9 @@ brew upgrade --all
 # Install homebrew mac apps
 ./install-brew-store-apps.sh
 
+# Install node aps
+./install-nodejs-packages.sh
+
 # Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -34,11 +37,12 @@ cd "$(dirname "${BASH_SOURCE}")";
 rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "README.md" \
 	--exclude "install.sh" \
 	--exclude "install-brew-apps.sh" \
-	--exclude "install-brew-binaries.sh" \
+	--exclude "install-brew-packages.sh" \
 	--exclude "install-brew-fonts.sh" \
 	--exclude "install-brew-store-apps.sh" \
 	--exclude "install-brew-other.sh" \
 	--exclude "install-macos-preferences.sh" \
+	--exclude "install-nodejs-packages.sh" \
 	-avh --no-perms . ~;
 
 # Install remaining homebrew deps

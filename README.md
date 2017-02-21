@@ -11,38 +11,72 @@ git clone https://github.com/wouterds/dotfiles.git
 cd dotfiles
 ```
 
-### Install everything
+### Install auto-magically everything
 
 ```bash
 ./install.sh
 ```
 
-### Install mac os preferences
+### Manual installation
+
+#### Install mac os preferences
 
 ```bash
 ./install-macos-preferences.sh
 ```
 
-### Install fonts
+#### Install packages
+
+```bash
+./install-brew-packages.sh
+```
+
+#### Install fonts
 
 ```bash
 ./install-brew-fonts.sh
 ```
 
-### Install binaries
-
-```bash
-./install-brew-binaries.sh
-```
-
-### Install apps
+#### Install apps
 
 ```bash
 ./install-brew-apps.sh
 ```
 
-### Install store apps
+#### Install store apps
 
 ```bash
 ./install-brew-store-apps.sh
+```
+
+#### Install nodejs packages
+
+```bash
+./install-nodejs-packages.sh
+```
+
+#### Install oh-my-zsh
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+#### Copy dotfiles
+```bash
+cd "$(dirname "${BASH_SOURCE}")";
+rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "README.md" \
+	--exclude "install.sh" \
+	--exclude "install-brew-apps.sh" \
+	--exclude "install-brew-packages.sh" \
+	--exclude "install-brew-fonts.sh" \
+	--exclude "install-brew-store-apps.sh" \
+	--exclude "install-brew-other.sh" \
+	--exclude "install-macos-preferences.sh" \
+	--exclude "install-nodejs-packages.sh" \
+	-avh --no-perms . ~;
+  ```
+
+#### Install some other packages
+
+```bash
+./install-brew-other.sh
 ```
