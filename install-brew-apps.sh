@@ -27,7 +27,6 @@ brew cask install transmission --appdir=/Applications
 brew cask install spectacle --appdir=/Applications
 brew cask install viscosity --appdir=/Applications
 brew cask install sequel-pro-nightly --appdir=/Applications
-brew cask install smcfancontrol --appdir=/Applications
 brew cask install sketch --appdir=/Applications
 brew cask install kibako --appdir=/Applications
 brew cask install alfred2 --appdir=/Applications
