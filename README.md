@@ -80,3 +80,9 @@ rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "READM
 ```bash
 ./install-brew-other.sh
 ```
+
+#### Install Atom packages
+
+```bash
+./install-atom-packages.sh
+```
