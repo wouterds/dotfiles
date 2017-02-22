@@ -43,10 +43,14 @@ rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "READM
 	--exclude "install-brew-other.sh" \
 	--exclude "install-macos-preferences.sh" \
 	--exclude "install-nodejs-packages.sh" \
+	--exclude "install-atom-packages.sh" \
 	-avh --no-perms . ~;
 
 # Install remaining homebrew deps
 ./install-brew-other.sh
+
+# Install Atom packages
+./install-atom-packages.sh
 
 # Load bash profile
 source ~/.bash_profile;
