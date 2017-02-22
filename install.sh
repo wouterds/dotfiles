@@ -26,7 +26,7 @@ brew upgrade --all
 # Install homebrew mac apps
 ./install-brew-store-apps.sh
 
-# Install node aps
+# Install nodejs packages
 ./install-nodejs-packages.sh
 
 # Oh-my-zsh
