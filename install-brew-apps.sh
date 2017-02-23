@@ -41,6 +41,7 @@ brew cask install hipchat --apdir=/Applications
 
 # Extensions etc
 brew cask install aerial
+brew cask install colorpicker-skalacolor
 
 # Cleanup
 brew cleanup
