@@ -37,6 +37,7 @@ brew install python
 brew install python3
 brew install josegonzalez/php/php71
 brew install josegonzalez/php/composer
+brew install mysql
 brew install docker-compose
 brew install mas
 brew install cask
