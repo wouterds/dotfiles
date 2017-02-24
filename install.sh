@@ -29,6 +29,9 @@ brew upgrade --all
 # Install nodejs packages
 ./install-nodejs-packages.sh
 
+# Install ruby gems
+./install-ruby-gems.sh
+
 # Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -44,6 +47,7 @@ rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "READM
 	--exclude "install-macos-preferences.sh" \
 	--exclude "install-nodejs-packages.sh" \
 	--exclude "install-atom-packages.sh" \
+	--exclude "./install-ruby-gems.sh" \
 	-avh --no-perms . ~;
 
 # Install remaining homebrew deps

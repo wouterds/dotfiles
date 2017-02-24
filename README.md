@@ -86,3 +86,9 @@ rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "READM
 ```bash
 ./install-atom-packages.sh
 ```
+
+#### Install Ruby gems
+
+```bash
+./install-ruby-gems.sh
+```
