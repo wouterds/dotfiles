@@ -39,6 +39,7 @@ brew cask install fanny --appdir=/Applications
 brew cask install transmit --appdir=/Applications
 brew cask install hipchat --apdir=/Applications
 brew cask install steam --apdir=/Applications
+brew cask install etcher --apdir=/Applications
 
 # Extensions etc
 brew cask install aerial
