@@ -62,3 +62,9 @@ alias reload="exec $SHELL -l"
 
 # Git composer lock rebase fix
 alias lockfix="rm composer.lock && composer update --ignore-platform-reqs && git add composer.lock && git rebase --continue"
+
+# Pretty cat
+alias cat="pygmentize -g"
+
+# The Fuck
+eval "$(thefuck --alias)"

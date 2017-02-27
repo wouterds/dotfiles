@@ -24,7 +24,7 @@ brew install homebrew/dupes/screen
 brew install coreutils
 brew install findutils
 
-# Some other def tools that are handy
+# Some other dev tools that are handy
 brew install ruby
 brew install curl
 brew install wget --with-iri
@@ -38,6 +38,7 @@ brew install python3
 brew install josegonzalez/php/php71
 brew install josegonzalez/php/composer
 brew install mysql
+brew install thefuck
 brew install docker-compose
 brew install mas
 brew install cask

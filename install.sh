@@ -29,6 +29,12 @@ brew upgrade --all
 # Install nodejs packages
 ./install-nodejs-packages.sh
 
+# Install Python packages
+./install-python-packages.sh
+
+# Install Atom packages
+./install-atom-packages.sh
+
 # Install ruby gems
 ./install-ruby-gems.sh
 
@@ -37,24 +43,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Copy dotfiles
 cd "$(dirname "${BASH_SOURCE}")";
-rsync --exclude ".git/" --exclude ".DS_Store" --exclude "init/" --exclude "README.md" \
+rsync --exclude ".git/" --exclude ".DS_Store" \
+ 	--exclude "README.md" \
+	--exclude "init/" \
 	--exclude "install.sh" \
 	--exclude "install-brew-apps.sh" \
 	--exclude "install-brew-packages.sh" \
 	--exclude "install-brew-fonts.sh" \
 	--exclude "install-brew-store-apps.sh" \
-	--exclude "install-brew-other.sh" \
 	--exclude "install-macos-preferences.sh" \
 	--exclude "install-nodejs-packages.sh" \
+	--exclude "install-python-packages.sh" \
 	--exclude "install-atom-packages.sh" \
-	--exclude "./install-ruby-gems.sh" \
+	--exclude "install-ruby-gems.sh" \
 	-avh --no-perms . ~;
-
-# Install remaining homebrew deps
-./install-brew-other.sh
-
-# Install Atom packages
-./install-atom-packages.sh
-
-# Load bash profile
-source ~/.bash_profile;
