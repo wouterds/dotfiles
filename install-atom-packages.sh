@@ -3,6 +3,7 @@
 # Atom packages
 apm install atom-autocomplete-php
 apm install atom-terminal
+apm install docblockr
 apm install editorconfig
 apm install blame
 apm install language-blade
