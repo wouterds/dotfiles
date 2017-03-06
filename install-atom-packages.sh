@@ -2,10 +2,10 @@
 
 # Atom packages
 apm install atom-autocomplete-php
-apm install atom-terminal
+apm install blame
 apm install docblockr
 apm install editorconfig
-apm install blame
+apm install emmet
 apm install language-blade
 apm install language-groovy
 apm install linter
