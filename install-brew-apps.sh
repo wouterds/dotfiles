@@ -44,6 +44,7 @@ brew cask install etcher --apdir=/Applications
 # Extensions etc
 brew cask install aerial
 brew cask install colorpicker-skalacolor
+brew cask install ngrok
 
 # Cleanup
 brew cleanup
