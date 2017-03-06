@@ -39,6 +39,7 @@ brew install josegonzalez/php/php71
 brew install josegonzalez/php/composer
 brew install mysql
 brew install thefuck
+brew install certbot
 brew install docker-compose
 brew install docker-clean
 brew install mas
