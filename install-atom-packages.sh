@@ -8,6 +8,7 @@ apm install editorconfig
 apm install emmet
 apm install language-blade
 apm install language-groovy
+apm install language-vue
 apm install lines
 apm install linter
 apm install linter-php
