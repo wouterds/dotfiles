@@ -15,3 +15,5 @@ apm install linter-php
 apm install minimap
 apm install pigments
 apm install wakatime
+apm install language-docker
+apm install atom-typescript
