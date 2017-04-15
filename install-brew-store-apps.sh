@@ -18,6 +18,7 @@ mas install 803453959 # Slack
 mas install 457622435 # Yoink
 mas install 507257563 # Sip
 mas install 880001334 # Reeder
+mas install 1153157709 # Speedtest
 mas install 409183694 # Keynote
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
