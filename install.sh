@@ -14,11 +14,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew update
 brew upgrade --all
 
-# Install homebrew binaries
-./install-brew-binaries.sh
-
-# Install homebrew fonts
-./install-brew-fonts.sh
+# Install homebrew packages
+./install-brew-packages.sh
 
 # Install homebrew apps
 ./install-brew-apps.sh
@@ -38,22 +35,25 @@ brew upgrade --all
 # Install ruby gems
 ./install-ruby-gems.sh
 
+# Install homebrew fonts
+./install-brew-fonts.sh
+
 # Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Copy dotfiles
 cd "$(dirname "${BASH_SOURCE}")";
 rsync --exclude ".git/" --exclude ".DS_Store" \
- 	--exclude "README.md" \
 	--exclude "init/" \
-	--exclude "install.sh" \
+	--exclude "install-atom-packages.sh" \
 	--exclude "install-brew-apps.sh" \
-	--exclude "install-brew-packages.sh" \
 	--exclude "install-brew-fonts.sh" \
+	--exclude "install-brew-packages.sh" \
 	--exclude "install-brew-store-apps.sh" \
 	--exclude "install-macos-preferences.sh" \
 	--exclude "install-nodejs-packages.sh" \
 	--exclude "install-python-packages.sh" \
-	--exclude "install-atom-packages.sh" \
 	--exclude "install-ruby-gems.sh" \
+	--exclude "install.sh" \
+ 	--exclude "README.md" \
 	-avh --no-perms . ~;

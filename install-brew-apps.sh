@@ -35,15 +35,13 @@ brew cask install application-loader --appdir=/Applications
 brew cask install rescuetime --appdir=/Applications
 brew cask install vlc --appdir=/Applications
 brew cask install bartender --appdir=/Applications
-brew cask install fanny --appdir=/Applications
 brew cask install transmit --appdir=/Applications
-brew cask install hipchat --apdir=/Applications
-brew cask install steam --apdir=/Applications
-brew cask install etcher --apdir=/Applications
-brew cask install macdown --apdir=/Applications
+brew cask install hipchat --appdir=/Applications
+brew cask install steam --appdir=/Applications
+brew cask install etcher --appdir=/Applications
+brew cask install macdown --appdir=/Applications
 
 # Extensions etc
-brew cask install aerial
 brew cask install colorpicker-skalacolor
 brew cask install ngrok
 
