@@ -42,6 +42,7 @@ brew install certbot
 brew install docker-compose
 brew install docker-clean
 brew install dos2unix
+brew install watch
 brew install mas
 brew install cask
 
