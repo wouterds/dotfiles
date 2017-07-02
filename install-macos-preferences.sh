@@ -12,6 +12,10 @@ sudo scutil --set HostName "macbook-pro-wouterds"
 sudo scutil --set LocalHostName "macbook-pro-wouterds"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "macbook-pro-wouterds"
 
+# Disable guest user
+defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
+defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
+
 # Menu bar: show remaining battery time as percentage
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
