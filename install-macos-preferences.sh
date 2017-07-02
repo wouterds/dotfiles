@@ -16,6 +16,9 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
 defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
 
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
 # Menu bar: show remaining battery time as percentage
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
