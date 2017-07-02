@@ -12,6 +12,9 @@ sudo scutil --set HostName "macbook-pro-wouterds"
 sudo scutil --set LocalHostName "macbook-pro-wouterds"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "macbook-pro-wouterds"
 
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
 # Disable guest user
 defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
 defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
@@ -22,9 +25,6 @@ defaults write -g userMenuExtraStyle -int 1
 
 # Use normal function keys
 defaults write -g com.apple.keyboard.fnState -bool true
-
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
 
 # Menu bar: show remaining battery time as percentage
 defaults write com.apple.menuextra.battery ShowPercent -bool true
