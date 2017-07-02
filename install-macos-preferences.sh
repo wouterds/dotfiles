@@ -20,6 +20,9 @@ defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server All
 defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool YES
 defaults write -g userMenuExtraStyle -int 1
 
+# Use normal function keys
+defaults write -g com.apple.keyboard.fnState -bool true
+
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
