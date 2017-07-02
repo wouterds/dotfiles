@@ -16,6 +16,10 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
 defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
 
+# Fast user switching
+defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool YES
+defaults write -g userMenuExtraStyle -int 1
+
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
