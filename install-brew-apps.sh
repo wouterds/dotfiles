@@ -10,37 +10,37 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew tap caskroom/versions
 
 # Install some apps
-brew cask install dropbox --appdir=/Applications
-brew cask install google-drive --appdir=/Applications
-brew cask install google-chrome --appdir=/Applications
-brew cask install firefox --appdir=/Applications
-brew cask install keepingyouawake --appdir=/Applications
-brew cask install docker --appdir=/Applications
-brew cask install atom --appdir=/Applications
-brew cask install phpstorm --appdir=/Applications
-brew cask install spotify --appdir=/Applications
-brew cask install spotify-notifications --appdir=/Applications
-brew cask install skype --appdir=/Applications
-brew cask install messenger --appdir=/Applications
-brew cask install whatsapp --appdir=/Applications
-brew cask install transmission --appdir=/Applications
-brew cask install spectacle --appdir=/Applications
-brew cask install viscosity --appdir=/Applications
-brew cask install sequel-pro-nightly --appdir=/Applications
-brew cask install sketch --appdir=/Applications
-brew cask install kibako --appdir=/Applications
-brew cask install alfred2 --appdir=/Applications
-brew cask install knock --appdir=/Applications
-brew cask install application-loader --appdir=/Applications
-brew cask install rescuetime --appdir=/Applications
-brew cask install vlc --appdir=/Applications
-brew cask install bartender --appdir=/Applications
-brew cask install transmit --appdir=/Applications
-brew cask install hipchat --appdir=/Applications
-brew cask install steam --appdir=/Applications
-brew cask install etcher --appdir=/Applications
-brew cask install macdown --appdir=/Applications
-brew cask install kitematic --appdir=/Applications
+brew cask install dropbox
+brew cask install google-drive
+brew cask install google-chrome
+brew cask install firefox
+brew cask install keepingyouawake
+brew cask install docker
+brew cask install atom
+brew cask install phpstorm
+brew cask install spotify
+brew cask install spotify-notifications
+brew cask install skype
+brew cask install messenger
+brew cask install whatsapp
+brew cask install transmission
+brew cask install spectacle
+brew cask install viscosity
+brew cask install sequel-pro-nightly
+brew cask install sketch
+brew cask install kibako
+brew cask install alfred2
+brew cask install knock
+brew cask install application-loader
+brew cask install rescuetime
+brew cask install vlc
+brew cask install bartender
+brew cask install transmit
+brew cask install hipchat
+brew cask install steam
+brew cask install etcher
+brew cask install macdown
+brew cask install kitematic
 
 # Extensions etc
 brew cask install colorpicker-skalacolor
