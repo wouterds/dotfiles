@@ -40,6 +40,7 @@ brew cask install hipchat --appdir=/Applications
 brew cask install steam --appdir=/Applications
 brew cask install etcher --appdir=/Applications
 brew cask install macdown --appdir=/Applications
+brew cask install kitematic --appdir=/Applications
 
 # Extensions etc
 brew cask install colorpicker-skalacolor
