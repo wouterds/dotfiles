@@ -15,6 +15,9 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# Allow apps from anywhere
+sudo spctl --master-disable
+
 # Disable guest user
 sudo defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
