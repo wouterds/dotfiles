@@ -43,6 +43,7 @@ brew cask install macdown
 brew cask install kitematic
 brew cask install media-converter
 brew cask install gifcapture
+brew cask install appcleaner
 
 # Extensions & others
 brew cask install padbury-clock
