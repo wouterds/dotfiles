@@ -126,6 +126,10 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Show Dashboard as a Space
 defaults write com.apple.dock dashboard-in-overlay -bool false
 
+# Use list view in all Finder windows by default
+# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
