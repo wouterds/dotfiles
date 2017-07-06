@@ -30,6 +30,15 @@ defaults write -g userMenuExtraStyle -int 1
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
+# Dock tilesize
+defaults write com.apple.dock tilesize -int 50
+
+# Icon size of magnified Dock items
+defaults write com.apple.dock largesize -int 64
+
+# Minimization effect: 'genie', 'scale', 'suck'
+defaults write com.apple.dock mineffect -string 'scale'
+
 # Use normal function keys
 defaults write -g com.apple.keyboard.fnState -bool true
 
