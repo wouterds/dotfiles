@@ -25,6 +25,11 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -boo
 sudo defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool YES
 defaults write -g userMenuExtraStyle -int 1
 
+# Enable snap-to-grid for icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+
 # Use normal function keys
 defaults write -g com.apple.keyboard.fnState -bool true
 
