@@ -66,6 +66,10 @@ defaults write com.apple.dock autohide -bool true
 # Remove dock delay when hiding
 defaults write com.apple.Dock autohide-delay -float 0
 
+# Bottom right screen corner → Start screen saver
+defaults write com.apple.dock wvous-br-corner -int 5
+defaults write com.apple.dock wvous-br-modifier -int 0
+
 # Disable local Time Machine snapshots
 sudo tmutil disablelocal
 
