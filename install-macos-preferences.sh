@@ -19,8 +19,7 @@ sudo nvram SystemAudioVolume=" "
 sudo spctl --master-disable
 
 # Disable guest user
-sudo defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
+sudo defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool false
 
 # Fast user switching
 sudo defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool YES
