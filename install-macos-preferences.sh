@@ -121,7 +121,7 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Enable Dashboard
-defaults write com.apple.dashboard mcx-disabled -bool true
+defaults write com.apple.dashboard mcx-disabled -bool false
 
 # Show Dashboard as a Space
 defaults write com.apple.dock dashboard-in-overlay -bool false
