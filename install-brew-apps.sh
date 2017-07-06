@@ -42,7 +42,8 @@ brew cask install etcher
 brew cask install macdown
 brew cask install kitematic
 
-# Extensions etc
+# Extensions & others
+brew cask install padbury-clock
 brew cask install colorpicker-skalacolor
 brew cask install ngrok
 
