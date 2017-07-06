@@ -41,6 +41,7 @@ brew cask install steam
 brew cask install etcher
 brew cask install macdown
 brew cask install kitematic
+brew cask install media-converter
 
 # Extensions & others
 brew cask install padbury-clock
