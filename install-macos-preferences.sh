@@ -117,6 +117,9 @@ defaults write com.apple.screencapture type -string "jpg"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
+# Disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
 # Enable Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
 
