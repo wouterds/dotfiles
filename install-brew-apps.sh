@@ -44,6 +44,7 @@ brew cask install kitematic
 brew cask install media-converter
 brew cask install gifcapture
 brew cask install appcleaner
+brew cask install virtualbox
 
 # Extensions & others
 brew cask install padbury-clock
