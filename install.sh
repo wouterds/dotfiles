@@ -57,3 +57,9 @@ rsync --exclude ".git/" --exclude ".DS_Store" \
 	--exclude "install.sh" \
  	--exclude "README.md" \
 	-avh --no-perms . ~;
+
+# Restart apps
+for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" "Dock" "Finder" "Mail" "Messages" "Safari" "SystemUIServer" "iCal" 
+"Terminal";$
+  killall "${app}" > /dev/null 2>&1
+done
