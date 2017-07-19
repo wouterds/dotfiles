@@ -17,3 +17,4 @@ apm install pigments
 apm install wakatime
 apm install language-docker
 apm install atom-typescript
+apm install language-api-blueprint
