@@ -28,6 +28,7 @@ brew cask install spectacle
 brew cask install viscosity
 brew cask install sequel-pro-nightly
 brew cask install sketch
+brew cask install zeplin
 brew cask install kibako
 brew cask install alfred2
 brew cask install knock
