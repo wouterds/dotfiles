@@ -36,7 +36,7 @@ brew cask install application-loader
 brew cask install rescuetime
 brew cask install vlc
 brew cask install bartender
-brew cask install transmit
+brew cask install transmit4
 brew cask install hipchat
 brew cask install steam
 brew cask install etcher
