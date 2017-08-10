@@ -1,5 +1,6 @@
 # Shortcuts
 alias g="git"
+alias gc="gitmoji -c"
 alias h="history"
 alias j="jobs"
 alias tltest="docker exec -it teamleader-tests ./composer/bin/phpunit"
