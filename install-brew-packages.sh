@@ -35,9 +35,9 @@ brew install autoconf
 brew install node
 brew install python
 brew install python3
-brew install josegonzalez/php/php71
-brew install josegonzalez/php/php71-memcached
-brew install josegonzalez/php/composer
+brew install php71
+brew install php71-memcached
+brew install composer
 brew install thefuck
 brew install certbot
 brew install docker-compose
