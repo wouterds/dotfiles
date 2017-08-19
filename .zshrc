@@ -76,6 +76,7 @@ fi
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Composer shizzle
 export PATH=${PATH}:${HOME}/.composer/vendor/bin;
