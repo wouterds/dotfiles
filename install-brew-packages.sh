@@ -34,7 +34,6 @@ brew install ssh-copy-id
 brew install autoconf
 brew install node
 brew install python
-brew install python3
 brew install php71
 brew install php71-memcached
 brew install composer
