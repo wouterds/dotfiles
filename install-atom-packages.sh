@@ -18,3 +18,4 @@ apm install wakatime
 apm install language-docker
 apm install atom-typescript
 apm install language-api-blueprint
+apm install atom-beautify
