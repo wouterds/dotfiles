@@ -20,3 +20,4 @@ apm install atom-typescript
 apm install language-api-blueprint
 apm install atom-beautify
 apm install color-picker
+apm install php-twig
