@@ -50,6 +50,7 @@ brew cask install whatpulse
 brew cask install zoomus
 brew cask install insomnia
 brew cask install arduino
+brew cask install dockstation
 
 # Extensions & others
 brew cask install padbury-clock
