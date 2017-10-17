@@ -45,6 +45,7 @@ brew install dos2unix
 brew install watch
 brew install mas
 brew install cask
+brew install speedtest-cli
 
 # Cleanup
 brew cleanup
