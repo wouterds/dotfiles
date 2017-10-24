@@ -21,3 +21,4 @@ apm install language-api-blueprint
 apm install atom-beautify
 apm install color-picker
 apm install php-twig
+apm install language-babel
