@@ -51,6 +51,7 @@ brew cask install zoomus
 brew cask install insomnia
 brew cask install arduino
 brew cask install dockstation
+brew cask install rocket-chat
 
 # Extensions & others
 brew cask install padbury-clock
