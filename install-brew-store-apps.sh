@@ -25,6 +25,7 @@ mas install 409203825 # Numbers
 mas install 497799835 # Xcode
 mas install 1141688067 # Coin Tick
 mas install 568494494 # Pocket
+mas install 668208984 # Giphy Capture
 
 # Cleanup
 brew cleanup
