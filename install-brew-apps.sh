@@ -43,7 +43,6 @@ brew cask install etcher
 brew cask install macdown
 brew cask install kitematic
 brew cask install media-converter
-brew cask install gifcapture
 brew cask install appcleaner
 brew cask install virtualbox
 brew cask install whatpulse
