@@ -53,6 +53,7 @@ brew cask install arduino
 brew cask install dockstation
 brew cask install rocket-chat
 brew cask install telegram
+brew cask reinstall protonmail-bridge
 brew cask install ipvanish-vpn
 brew cask install torbrowser
 
