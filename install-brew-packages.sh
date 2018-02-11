@@ -15,10 +15,10 @@ brew install zsh
 brew install zsh-completions
 
 # Install more recent versions of some OS X tools
-brew install homebrew/dupes/nano
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install nano
+brew install grep
+brew install openssh
+brew install screen
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew install coreutils
