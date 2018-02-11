@@ -35,8 +35,8 @@ brew install ssh-copy-id
 brew install autoconf
 brew install node
 brew install python
-brew install php71
-brew install php71-memcached
+brew install php72
+brew install php72-memcached
 brew install composer
 brew install thefuck
 brew install certbot
