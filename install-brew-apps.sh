@@ -56,6 +56,7 @@ brew cask install telegram
 brew cask reinstall protonmail-bridge
 brew cask install ipvanish-vpn
 brew cask install torbrowser
+brew cask install discord
 
 # Extensions & others
 brew cask install padbury-clock
