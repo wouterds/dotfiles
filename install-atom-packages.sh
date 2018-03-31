@@ -24,3 +24,6 @@ apm install php-twig
 apm install language-babel
 apm install dracula-ui
 apm install dracula-syntax
+apm install hyperclick
+apm install react
+apm install flow-ide
