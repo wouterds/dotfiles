@@ -12,7 +12,6 @@ brew tap caskroom/versions
 # Install some apps
 brew cask install java
 brew cask install dropbox
-brew cask install google-drive
 brew cask install google-chrome
 brew cask install firefox
 brew cask install keepingyouawake
@@ -30,7 +29,6 @@ brew cask install viscosity
 brew cask install sequel-pro-nightly
 brew cask install sketch
 brew cask install zeplin
-brew cask install kibako
 brew cask install alfred2
 brew cask install knock
 brew cask install application-loader
@@ -38,7 +36,6 @@ brew cask install rescuetime
 brew cask install vlc
 brew cask install bartender
 brew cask install transmit4
-brew cask install hipchat
 brew cask install steam
 brew cask install etcher
 brew cask install macdown
@@ -51,7 +48,6 @@ brew cask install zoomus
 brew cask install insomnia
 brew cask install arduino
 brew cask install dockstation
-brew cask install rocket-chat
 brew cask install telegram
 brew cask reinstall protonmail-bridge
 brew cask install ipvanish-vpn
