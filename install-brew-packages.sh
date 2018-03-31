@@ -6,10 +6,8 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# We need this later on for php & composer
-brew tap homebrew/homebrew-php
-
 # Basics
+brew install git
 brew install bash
 brew install zsh
 brew install zsh-completions
@@ -29,23 +27,19 @@ brew install ruby
 brew install curl
 brew install wget --with-iri
 brew install htop
-brew install git
 brew install ssh-copy-id
 brew install autoconf
 brew install node
 brew install python
 brew install php72
-brew install php72-memcached
 brew install composer
 brew install thefuck
 brew install certbot
 brew install docker-compose
-brew install docker-clean
-brew install dos2unix
 brew install watch
+brew install speedtest-cli
 brew install mas
 brew install cask
-brew install speedtest-cli
 
 # Cleanup
 brew cleanup
