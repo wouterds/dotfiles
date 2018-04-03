@@ -54,6 +54,7 @@ brew cask install ipvanish-vpn
 brew cask install torbrowser
 brew cask install discord
 brew cask install android-sdk
+brew cask install android-platform-tools
 brew cask install android-studio
 
 # Extensions & others
