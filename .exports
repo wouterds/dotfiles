@@ -25,8 +25,15 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
+# Add `~/bin` to the `$PATH`
+export PATH="$HOME/bin:$PATH";
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 # Blackfire
 export BLACKFIRE_CLIENT_ID=8386d317-c8d0-44f6-9645-fe79a4a74304
 export BLACKFIRE_CLIENT_TOKEN=1cf2e169ce53b3018d4c880460c179f7be93344d8db419a4c93f3bcdaa831a7b
 export BLACKFIRE_SERVER_ID=d1ce1883-c977-487c-9a2a-a6dccd6b25cb
 export BLACKFIRE_SERVER_TOKEN=01c561d33a92c4044835ff5a2a5d79dec2b85aef15fa26c3e0063af85f2cba3a
+
+# Composer
+export PATH=${PATH}:${HOME}/.composer/vendor/bin;
