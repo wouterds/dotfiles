@@ -37,3 +37,9 @@ export BLACKFIRE_SERVER_TOKEN=01c561d33a92c4044835ff5a2a5d79dec2b85aef15fa26c3e0
 
 # Composer
 export PATH=${PATH}:${HOME}/.composer/vendor/bin;
+
+# Android dev tools
+export ANDROID_HOME=/usr/local/opt/android-sdk
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/build-tools/19.1.0:$PATH
