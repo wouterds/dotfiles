@@ -9,3 +9,4 @@ npm install -g bower
 npm install -g webpack
 npm install -g yarn
 npm install -g gtop
+npm install -g react-native-cli
