@@ -56,6 +56,7 @@ brew cask install discord
 brew cask install android-sdk
 brew cask install android-platform-tools
 brew cask install android-studio
+brew cask install angry-ip-scanner
 
 # Extensions & others
 brew cask install padbury-clock
