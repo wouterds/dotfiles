@@ -27,6 +27,7 @@ brew cask install transmission
 brew cask install spectacle
 brew cask install viscosity
 brew cask install sequel-pro
+brew cask install psequel
 brew cask install sketch
 brew cask install zeplin
 brew cask install alfred2
