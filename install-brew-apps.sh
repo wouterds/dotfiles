@@ -33,7 +33,6 @@ brew cask install zeplin
 brew cask install alfred2
 brew cask install knock
 brew cask install application-loader
-brew cask install rescuetime
 brew cask install vlc
 brew cask install bartender
 brew cask install transmit4
