@@ -28,6 +28,7 @@ brew install curl
 brew install wget --with-iri
 brew install htop
 brew install ssh-copy-id
+brew install gpg
 brew install autoconf
 brew install node
 brew install python
