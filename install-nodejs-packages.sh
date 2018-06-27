@@ -9,3 +9,4 @@ npm install -g yarn
 npm install -g gtop
 npm install -g flow-bin
 npm install -g react-native-cli
+npm install -g whackage
