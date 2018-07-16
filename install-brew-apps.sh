@@ -58,6 +58,7 @@ brew cask install android-studio
 brew cask install angry-ip-scanner
 brew cask install visual-studio-code
 brew cask install genymotion
+brew cask install league-of-legends
 
 # Extensions & others
 brew cask install padbury-clock
