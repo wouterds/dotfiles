@@ -60,6 +60,7 @@ brew cask install visual-studio-code
 brew cask install genymotion
 brew cask install league-of-legends
 brew cask install teamviewer
+brew cask install cscreen
 
 # Extensions & others
 brew cask install padbury-clock
