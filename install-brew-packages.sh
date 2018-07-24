@@ -39,6 +39,7 @@ brew install certbot
 brew install docker-compose
 brew install watch
 brew install speedtest-cli
+brew install wakeonlan
 brew install mas
 brew install cask
 
