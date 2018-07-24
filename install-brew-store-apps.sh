@@ -27,6 +27,7 @@ mas install 1141688067 # Coin Tick
 mas install 568494494 # Pocket
 mas install 668208984 # Giphy Capture
 mas install 1063631769 # Medis
+mas install 549083868 # Display Menu
 
 # Cleanup
 brew cleanup
