@@ -1,0 +1,17 @@
+{
+	"workbench.colorTheme": "Dracula",
+	"workbench.activityBar.visible": false,
+	"editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 13,
+	"editor.lineHeight": 26,
+	"editor.renderWhitespace": "all",
+	"editor.renderIndentGuides": false,
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.scrollBeyondLastLine": false,
+	"editor.renderLineHighlight": "none",
+	"editor.cursorStyle": "line",
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true,
+	},
+}

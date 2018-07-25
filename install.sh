@@ -46,7 +46,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Copy dotfiles
 cd "$(dirname "${BASH_SOURCE}")";
-rsync --exclude ".git/" --exclude ".DS_Store" \
+rsync \
+	--exclude ".DS_Store" \
+	--exclude ".vscode-settings.json" \
+	--exclude ".git/" \
 	--exclude "init/" \
 	--exclude "install-atom-packages.sh" \
 	--exclude "install-brew-apps.sh" \
@@ -61,6 +64,8 @@ rsync --exclude ".git/" --exclude ".DS_Store" \
 	--exclude "install.sh" \
  	--exclude "README.md" \
 	-avh --no-perms . ~;
+
+rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Restart apps
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" "Dock" "Finder" "Mail" "Messages" "Safari" "SystemUIServer" "iCal"; do
