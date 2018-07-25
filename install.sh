@@ -32,6 +32,9 @@ brew upgrade
 # Install Atom packages
 ./install-atom-packages.sh
 
+# Install Code packages
+./install-code-packages.sh
+
 # Install ruby gems
 ./install-ruby-gems.sh
 
@@ -50,6 +53,7 @@ rsync --exclude ".git/" --exclude ".DS_Store" \
 	--exclude "install-brew-fonts.sh" \
 	--exclude "install-brew-packages.sh" \
 	--exclude "install-brew-store-apps.sh" \
+	--exclude "install-code-packages.sh" \
 	--exclude "install-macos-preferences.sh" \
 	--exclude "install-nodejs-packages.sh" \
 	--exclude "install-python-packages.sh" \
