@@ -7,3 +7,4 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension flowtype.flow-for-vscode
 code --install-extension naumovs.color-highlight
+code --install-extension PeterJausovec.vscode-docker
