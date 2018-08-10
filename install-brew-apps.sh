@@ -62,6 +62,7 @@ brew cask install genymotion
 brew cask install league-of-legends
 brew cask install teamviewer
 brew cask install cscreen
+brew cask install hyper
 
 # Extensions & others
 brew cask install padbury-clock
