@@ -63,6 +63,7 @@ brew cask install league-of-legends
 brew cask install teamviewer
 brew cask install cscreen
 brew cask install hyper
+brew cask install ledger-live
 
 # Extensions & others
 brew cask install padbury-clock
