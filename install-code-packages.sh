@@ -12,3 +12,4 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension felixfbecker.php-intellisense
 code --install-extension eg2.vscode-npm-script
 code --install-extension zignd.html-css-class-completion
+code --install-extension ms-python.python
