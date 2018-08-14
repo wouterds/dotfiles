@@ -13,3 +13,4 @@ code --install-extension felixfbecker.php-intellisense
 code --install-extension eg2.vscode-npm-script
 code --install-extension zignd.html-css-class-completion
 code --install-extension ms-python.python
+code --install-extension mikestead.dotenv
