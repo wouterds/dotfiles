@@ -64,6 +64,7 @@ brew cask install teamviewer
 brew cask install cscreen
 brew cask install hyper
 brew cask install ledger-live
+brew cask install fritzing
 
 # Extensions & others
 brew cask install padbury-clock
