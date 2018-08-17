@@ -65,6 +65,7 @@ brew cask install cscreen
 brew cask install hyper
 brew cask install ledger-live
 brew cask install fritzing
+brew cask install charles
 
 # Extensions & others
 brew cask install padbury-clock
