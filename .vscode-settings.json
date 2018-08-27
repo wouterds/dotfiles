@@ -16,5 +16,8 @@
 	"editor.cursorStyle": "block",
 	"gitlens.advanced.messages": {
 		"suppressShowKeyBindingsNotice": true
+	},
+	"files.associations": {
+		"*.css": "postcss"
 	}
 }
