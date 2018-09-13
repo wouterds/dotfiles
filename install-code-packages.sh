@@ -17,3 +17,4 @@ code --install-extension mikestead.dotenv
 code --install-extension whatwedo.twig
 code --install-extension ricard.postcss
 code --install-extension equinusocio.vsc-material-theme
+code --install-extension mechatroner.rainbow-csv
