@@ -66,6 +66,7 @@ brew cask install ledger-live
 brew cask install fritzing
 brew cask install charles
 brew cask install diskmaker-x
+brew cask install twitch
 
 # Extensions & others
 brew cask install padbury-clock
