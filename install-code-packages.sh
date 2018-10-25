@@ -19,3 +19,4 @@ code --install-extension ricard.postcss
 code --install-extension equinusocio.vsc-material-theme
 code --install-extension mechatroner.rainbow-csv
 code --install-extension christian-kohler.npm-intellisense
+code --install-extension mikestead.dotenv
