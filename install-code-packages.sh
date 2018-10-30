@@ -21,3 +21,4 @@ code --install-extension mechatroner.rainbow-csv
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension mikestead.dotenv
 code --install-extension christian-kohler.path-intellisense
+code --install-extension vsmobile.vscode-react-native
