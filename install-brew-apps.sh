@@ -63,7 +63,6 @@ brew cask install diskmaker-x
 brew cask install twitch
 
 # Extensions & others
-brew cask install padbury-clock
 brew cask install colorpicker-skalacolor
 brew cask install ngrok
 
