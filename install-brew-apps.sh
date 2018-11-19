@@ -55,7 +55,6 @@ brew cask install androidtool
 brew cask install angry-ip-scanner
 brew cask install visual-studio-code
 brew cask install genymotion
-brew cask install league-of-legends
 brew cask install teamviewer
 brew cask install cscreen
 brew cask install ledger-live
