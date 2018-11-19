@@ -11,3 +11,4 @@ npm install -g react-native-cli
 npm install -g whackage
 npm install -g ios-deploy
 npm install -g react-devtools
+npm install -g wml
