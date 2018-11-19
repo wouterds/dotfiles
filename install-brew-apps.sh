@@ -46,7 +46,7 @@ brew cask install arduino
 brew cask install dockstation
 brew cask install telegram
 brew cask reinstall protonmail-bridge
-brew cask install torbrowser
+brew cask install tor-browser
 brew cask install discord
 brew cask install android-sdk
 brew cask install android-platform-tools
