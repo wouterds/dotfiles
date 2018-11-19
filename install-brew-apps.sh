@@ -43,7 +43,6 @@ brew cask install virtualbox
 brew cask install zoomus
 brew cask install insomnia
 brew cask install arduino
-brew cask install dockstation
 brew cask install telegram
 brew cask reinstall protonmail-bridge
 brew cask install tor-browser
