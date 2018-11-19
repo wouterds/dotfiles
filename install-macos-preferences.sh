@@ -84,10 +84,6 @@ defaults write com.apple.dock wvous-br-modifier -int 0
 # Disable local Time Machine snapshots
 sudo tmutil disablelocal
 
-# Use scroll gesture with the Ctrl (^) modifier key to zoom
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
-
 # Follow the keyboard focus while zoomed in
 defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
