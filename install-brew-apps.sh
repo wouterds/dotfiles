@@ -40,7 +40,6 @@ brew cask install macdown
 brew cask install kitematic
 brew cask install appcleaner
 brew cask install virtualbox
-brew cask install whatpulse
 brew cask install zoomus
 brew cask install insomnia
 brew cask install arduino
