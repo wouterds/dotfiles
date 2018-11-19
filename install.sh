@@ -29,9 +29,6 @@ brew upgrade
 # Install Python packages
 ./install-python-packages.sh
 
-# Install Atom packages
-./install-atom-packages.sh
-
 # Install Code packages
 ./install-code-packages.sh
 
