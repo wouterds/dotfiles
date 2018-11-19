@@ -34,7 +34,7 @@ defaults write com.apple.dock tilesize -int 50
 defaults write com.apple.dock largesize -int 64
 
 # Minimization effect: 'genie', 'scale', 'suck'
-defaults write com.apple.dock mineffect -string 'scale'
+defaults write com.apple.dock mineffect -string 'genie'
 
 # Use normal function keys
 defaults write -g com.apple.keyboard.fnState -bool true
