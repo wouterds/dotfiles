@@ -12,9 +12,6 @@ sudo scutil --set HostName "macbook-pro-wouterds"
 sudo scutil --set LocalHostName "macbook-pro-wouterds"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "macbook-pro-wouterds"
 
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
-
 # Allow apps from anywhere
 sudo spctl --master-disable
 
