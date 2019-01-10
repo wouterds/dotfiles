@@ -13,3 +13,4 @@ npm install -g ios-deploy
 npm install -g react-devtools
 npm install -g wml
 npm install -g serialport
+npm install -g ios-deploy
