@@ -5,3 +5,4 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 easy_install pip
 easy_install pjson
 easy_install pygments
+easy_install statcode
