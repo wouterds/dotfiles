@@ -65,7 +65,8 @@ brew cask install iconizer
 # Extensions & others
 brew cask install colorpicker-skalacolor
 brew cask install ngrok
-brew cask install homebrew/cask-drivers/silicon-labs-vcp-driver
+brew cask install silicon-labs-vcp-driver
+brew cask install wch-ch34x-usb-serial-driver
 
 # Cleanup
 brew cleanup
