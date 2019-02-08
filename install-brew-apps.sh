@@ -61,6 +61,7 @@ brew cask install charles
 brew cask install diskmaker-x
 brew cask install twitch
 brew cask install iconizer
+brew cask install handbrake
 
 # Extensions & others
 brew cask install colorpicker-skalacolor
