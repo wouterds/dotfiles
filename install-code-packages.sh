@@ -22,6 +22,6 @@ code --install-extension christian-kohler.npm-intellisense
 code --install-extension mikestead.dotenv
 code --install-extension christian-kohler.path-intellisense
 code --install-extension vsmobile.vscode-react-native
-code --install-extension eg2.tslint
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension vsciot-vscode.vscode-arduino
 code --install-extension clinyong.vscode-css-modules
