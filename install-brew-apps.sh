@@ -11,6 +11,7 @@ brew tap caskroom/versions
 
 # Install some apps
 brew cask install java8
+brew cask install google-backup-and-sync
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install firefox
