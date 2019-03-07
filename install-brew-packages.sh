@@ -44,6 +44,8 @@ brew install wakeonlan
 brew install mas
 brew install cask
 brew install tor
+brew install graphicsmagick
+brew install imagemagick
 
 # Cleanup
 brew cleanup
