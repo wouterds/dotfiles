@@ -47,6 +47,7 @@ brew install cask
 brew install tor
 brew install graphicsmagick
 brew install imagemagick
+brew install wpscan
 
 # Cleanup
 brew cleanup
