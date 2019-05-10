@@ -24,14 +24,13 @@ brew install coreutils
 brew install findutils
 
 # Some other dev tools that are handy
-brew install gnupg
+brew install gpg
 brew install ruby
 brew install curl
 brew install wget --with-iri
 brew install htop
 brew install ctop
 brew install ssh-copy-id
-brew install gpg
 brew install autoconf
 brew install node
 brew install python
