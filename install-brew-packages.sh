@@ -25,6 +25,7 @@ brew install findutils
 
 # Some other dev tools that are handy
 brew install gpg
+brew install telnet
 brew install ruby
 brew install curl
 brew install wget --with-iri
