@@ -48,6 +48,7 @@ brew install cask
 brew install tor
 brew install graphicsmagick
 brew install imagemagick
+brew install cocoapods
 brew install wpscan
 
 # Cleanup
