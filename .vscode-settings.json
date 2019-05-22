@@ -1,9 +1,6 @@
 {
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "Dracula",
-	"workbench.colorCustomizations": {
-		"editor.lineHighlightBackground": "#44475a",
-	},
 	"editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
 	"editor.fontSize": 13,
 	"editor.lineHeight": 26,
@@ -12,9 +9,5 @@
 	"editor.minimap.enabled": true,
 	"editor.minimap.renderCharacters": false,
 	"editor.scrollBeyondLastLine": false,
-	"editor.renderLineHighlight": "all",
-	"editor.cursorStyle": "block",
-	"gitlens.advanced.messages": {
-		"suppressShowKeyBindingsNotice": true
-	}
+	"editor.renderLineHighlight": "all"
 }
