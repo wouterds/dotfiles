@@ -26,3 +26,4 @@ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension vsciot-vscode.vscode-arduino
 code --install-extension clinyong.hookyqr.beautify
 code --install-extension ecmel.vscode-html-css
+code --install-extension jpoissonnier.vscode-styled-components
