@@ -50,6 +50,7 @@ brew install graphicsmagick
 brew install imagemagick
 brew install cocoapods
 brew install wpscan
+brew install glances
 
 # Cleanup
 brew cleanup
