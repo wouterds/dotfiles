@@ -9,15 +9,10 @@ code --install-extension flowtype.flow-for-vscode
 code --install-extension naumovs.color-highlight
 code --install-extension peterjausovec.vscode-docker
 code --install-extension esbenp.prettier-vscode
-code --install-extension felixfbecker.php-intellisense
 code --install-extension eg2.vscode-npm-script
 code --install-extension zignd.html-css-class-completion
 code --install-extension ms-python.python
 code --install-extension mikestead.dotenv
-code --install-extension whatwedo.twig
-code --install-extension ricard.postcss
-code --install-extension equinusocio.vsc-material-theme
-code --install-extension mechatroner.rainbow-csv
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension mikestead.dotenv
 code --install-extension christian-kohler.path-intellisense
