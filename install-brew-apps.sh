@@ -10,7 +10,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew tap caskroom/versions
 
 # Install some apps
-brew cask install java8
+brew cask install adoptopenjdk8
 brew cask install google-backup-and-sync
 brew cask install dropbox
 brew cask install google-chrome
