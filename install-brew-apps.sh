@@ -29,7 +29,7 @@ brew cask install viscosity
 brew cask install sequel-pro-nightly
 brew cask install postbird
 brew cask install sketch
-brew cask install alfred2
+brew cask install alfred4
 brew cask install vlc
 brew cask install bartender
 brew cask install transmit4
