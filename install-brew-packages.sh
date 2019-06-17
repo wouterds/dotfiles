@@ -28,7 +28,7 @@ brew install gpg
 brew install telnet
 brew install ruby
 brew install curl
-brew install wget --with-iri
+brew install wget
 brew install htop
 brew install ctop
 brew install ssh-copy-id
