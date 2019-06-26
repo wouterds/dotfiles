@@ -60,6 +60,7 @@ brew cask install twitch
 brew cask install handbrake
 brew cask install ipvanish-vpn
 brew cask install cityofzion-neon
+brew cask install runescape
 
 # Extensions & others
 brew cask install colorpicker-skalacolor
