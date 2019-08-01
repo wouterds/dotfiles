@@ -52,6 +52,7 @@ brew install cocoapods
 brew install wpscan
 brew install glances
 brew install translate-shell
+brew install awscli
 
 # Cleanup
 brew cleanup
