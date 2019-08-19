@@ -22,3 +22,4 @@ code --install-extension vsciot-vscode.vscode-arduino
 code --install-extension clinyong.hookyqr.beautify
 code --install-extension ecmel.vscode-html-css
 code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension wix.vscode-import-cost
