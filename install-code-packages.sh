@@ -23,3 +23,4 @@ code --install-extension clinyong.hookyqr.beautify
 code --install-extension ecmel.vscode-html-css
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension wix.vscode-import-cost
+code --install-extension mechatroner.rainbow-csv
