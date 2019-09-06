@@ -48,6 +48,7 @@ brew cask install android-sdk
 brew cask install android-platform-tools
 brew cask install android-studio
 brew cask install androidtool
+brew cask install apktool
 brew cask install angry-ip-scanner
 brew cask install visual-studio-code
 brew cask install genymotion
