@@ -53,6 +53,7 @@ brew install wpscan
 brew install glances
 brew install translate-shell
 brew install awscli
+brew install tig
 
 # Cleanup
 brew cleanup
