@@ -24,3 +24,4 @@ code --install-extension ecmel.vscode-html-css
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension wix.vscode-import-cost
 code --install-extension mechatroner.rainbow-csv
+code --install-extension kumar-harsh.graphql-for-vscode
