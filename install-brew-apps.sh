@@ -34,7 +34,7 @@ brew cask install vlc
 brew cask install bartender
 brew cask install transmit4
 brew cask install steam
-brew cask install etcher
+brew cask install balenaetcher
 brew cask install macdown
 brew cask install appcleaner
 brew cask install zoomus
