@@ -18,6 +18,7 @@ brew install grep
 brew install openssh
 brew install screen
 brew install watchman
+brew install rename
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew install coreutils
