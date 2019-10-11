@@ -55,6 +55,7 @@ brew install glances
 brew install translate-shell
 brew install awscli
 brew install tig
+brew install gifski
 
 # Cleanup
 brew cleanup
