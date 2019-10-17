@@ -64,6 +64,7 @@ brew cask install ipvanish-vpn
 brew cask install cityofzion-neon
 brew cask install runescape
 brew cask install fitbit-connect
+brew cask install imageoptim
 
 # Extensions & others
 brew cask install colorpicker-skalacolor
