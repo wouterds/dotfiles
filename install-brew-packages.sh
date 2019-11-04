@@ -33,6 +33,7 @@ brew install wget
 brew install htop
 brew install ctop
 brew install ssh-copy-id
+brew install diff-so-fancy
 brew install autoconf
 brew install node
 brew install python
