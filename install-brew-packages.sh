@@ -6,25 +6,18 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# Basics
 brew install git
 brew install bash
 brew install zsh
 brew install zsh-completions
-
-# Install more recent versions of some OS X tools
 brew install nano
 brew install grep
 brew install openssh
 brew install screen
 brew install watchman
 brew install rename
-
-# Install GNU core utilities (those that come with macOS are outdated)
 brew install coreutils
 brew install findutils
-
-# Some other dev tools that are handy
 brew install gpg
 brew install telnet
 brew install ruby
