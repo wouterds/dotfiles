@@ -51,6 +51,7 @@ brew install awscli
 brew install tig
 brew install ffmpeg
 brew install gifski
+brew install ios-deploy
 
 # Cleanup
 brew cleanup
