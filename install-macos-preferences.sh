@@ -81,9 +81,6 @@ defaults write com.apple.Dock autohide-delay -float 0
 defaults write com.apple.dock wvous-br-corner -int 5
 defaults write com.apple.dock wvous-br-modifier -int 0
 
-# Disable local Time Machine snapshots
-sudo tmutil disablelocal
-
 # Follow the keyboard focus while zoomed in
 defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
