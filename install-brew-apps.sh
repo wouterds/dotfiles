@@ -56,7 +56,6 @@ brew cask install fritzing
 brew cask install charles
 brew cask install diskmaker-x
 brew cask install twitch
-brew cask install obs
 brew cask install handbrake
 brew cask install ipvanish-vpn
 brew cask install cityofzion-neon
