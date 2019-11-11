@@ -13,7 +13,7 @@ mas install 1020812363 # CopyClip 2
 mas install 411643860 # DaisyDisk
 mas install 1054607607 # Helium
 mas install 1014850245 # Monit
-mas install 409789998 # Twitter
+mas install 1482454543 # Twitter
 mas install 803453959 # Slack
 mas install 457622435 # Yoink
 mas install 507257563 # Sip
