@@ -40,7 +40,6 @@ brew cask install zoomus
 brew cask install insomnia
 brew cask install arduino
 brew cask install telegram
-brew cask reinstall protonmail-bridge
 brew cask install tor-browser
 brew cask install discord
 brew cask install android-sdk
