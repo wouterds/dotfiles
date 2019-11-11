@@ -7,7 +7,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Caskroom versions
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 
 # Install some apps
 brew cask install adoptopenjdk8
