@@ -17,7 +17,6 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install keepingyouawake
 brew cask install docker
-brew cask install phpstorm
 brew cask install spotify
 brew cask install spotify-notifications
 brew cask install skype
