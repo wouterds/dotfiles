@@ -61,6 +61,7 @@ brew cask install cityofzion-neon
 brew cask install runescape
 brew cask install fitbit-connect
 brew cask install imageoptim
+brew cask install intel-power-gadget
 
 # Extensions & others
 brew cask install colorpicker-skalacolor
