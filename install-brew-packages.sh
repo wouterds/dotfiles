@@ -52,6 +52,7 @@ brew install tig
 brew install ffmpeg
 brew install gifski
 brew install ios-deploy
+brew install neofetch
 
 # Cleanup
 brew cleanup
