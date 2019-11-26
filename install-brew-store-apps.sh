@@ -31,6 +31,7 @@ mas install 897814548 # Proxie
 mas install 462054704 # Microsoft Word
 mas install 462058435 # Microsoft Excel
 mas install 462062816 # Microsoft PowerPoint
+mas install 1351639930 # Gifski
 
 # Cleanup
 brew cleanup
