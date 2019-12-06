@@ -62,6 +62,7 @@ brew cask install runescape
 brew cask install fitbit-connect
 brew cask install imageoptim
 brew cask install intel-power-gadget
+brew cask install gdisk
 
 # Extensions & others
 brew cask install colorpicker-skalacolor
