@@ -1,13 +1,13 @@
 {
-	"workbench.activityBar.visible": false,
-	"workbench.colorTheme": "Dracula",
-	"editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-	"editor.fontSize": 13,
-	"editor.lineHeight": 26,
-	"editor.renderWhitespace": "all",
-	"editor.renderIndentGuides": false,
-	"editor.minimap.enabled": true,
-	"editor.minimap.renderCharacters": false,
-	"editor.scrollBeyondLastLine": false,
-	"editor.renderLineHighlight": "all"
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 26,
+  "editor.renderWhitespace": "all",
+  "editor.renderIndentGuides": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderLineHighlight": "all"
 }
