@@ -5,46 +5,37 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # macOS preferences
-./install-macos-preferences.sh
+./macos-prefs.sh
 
 # Install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install all other stuff
-./install-brew-packages.sh
-./install-brew-apps.sh
-./install-brew-store-apps.sh
-./install-brew-fonts.sh
-./install-nodejs-packages.sh
-./install-python-packages.sh
-./install-ruby-gems.sh
-./install-code-packages.sh
+# Install packages, drivers, apps & fonts
+./install-packages.sh
+./install-drivers.sh
+./install-apps.sh
+./install-fonts.sh
 
-# Oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# (Oh my!) ZSH (needs to run before we copy dotfiles)
+./postinstall-zsh.sh
 
-# Copy dotfiles
-cd "$(dirname "${BASH_SOURCE}")";
-rsync \
-	--exclude ".DS_Store" \
-	--exclude ".vscode-settings.json" \
-	--exclude ".git/" \
-	--exclude "init/" \
-	--exclude "install-atom-packages.sh" \
-	--exclude "install-brew-apps.sh" \
-	--exclude "install-brew-fonts.sh" \
-	--exclude "install-brew-packages.sh" \
-	--exclude "install-brew-store-apps.sh" \
-	--exclude "install-code-packages.sh" \
-	--exclude "install-macos-preferences.sh" \
-	--exclude "install-nodejs-packages.sh" \
-	--exclude "install-python-packages.sh" \
-	--exclude "install-ruby-gems.sh" \
-	--exclude "install.sh" \
- 	--exclude "README.md" \
-	-avh --no-perms . ~;
+# Dotfiles
+rsync -avh --no-perms '.aliases' ~;
+rsync -avh --no-perms '.editorconfig' ~;
+rsync -avh --no-perms '.exports' ~;
+rsync -avh --no-perms '.functions' ~;
+rsync -avh --no-perms '.gitconfig' ~;
+rsync -avh --no-perms '.gitignore' ~;
+rsync -avh --no-perms '.nanorc' ~;
+rsync -avh --no-perms '.path' ~;
+rsync -avh --no-perms '.screenrc' ~;
+rsync -avh --no-perms '.wgetrc' ~;
+rsync -avh --no-perms '.zshrc' ~;
 
-rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
-
-./postinstall.sh
+# Postinstall
+./postinstall-git.sh
+./postinstall-node.sh
+./postinstall-python.sh
+./postinstall-ruby.sh
+./postinstall-vscode.sh
+./postinstall-terminal.sh

@@ -1,16 +1,21 @@
 #!/usr/bin/env bash
 
-# Ask for the administrator password upfront.
+# Privileges
 sudo -v
-
-# Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# Caskroom versions
-brew tap homebrew/cask-versions
+# Fonts
+brew cask install homebrew/cask-fonts/font-open-sans
+brew cask install homebrew/cask-fonts/font-roboto
+brew cask install homebrew/cask-fonts/font-hack
+brew cask install homebrew/cask-fonts/font-impact
+brew cask install homebrew/cask-fonts/font-public-sans
+brew cask install homebrew/cask-fonts/font-raleway
+brew cask install homebrew/cask-fonts/font-oswald
 
-# Install some apps
-brew cask install adoptopenjdk8
+# Apps
+brew cask install android-studio
+brew cask install androidtool
 brew cask install google-backup-and-sync
 brew cask install dropbox
 brew cask install google-chrome
@@ -42,10 +47,6 @@ brew cask install arduino
 brew cask install telegram
 brew cask install tor-browser
 brew cask install discord
-brew cask install android-sdk
-brew cask install android-platform-tools
-brew cask install android-studio
-brew cask install androidtool
 brew cask install angry-ip-scanner
 brew cask install visual-studio-code
 brew cask install genymotion
@@ -63,14 +64,6 @@ brew cask install fitbit-connect
 brew cask install imageoptim
 brew cask install intel-power-gadget
 brew cask install gdisk
-
-# Extensions & others
-brew cask install colorpicker-skalacolor
-brew cask install ngrok
-
-# Drivers
-brew cask install homebrew/cask-drivers/silicon-labs-vcp-driver
-brew cask install homebrew/cask-drivers/wch-ch34x-usb-serial-driver
 
 # Cleanup
 brew cleanup

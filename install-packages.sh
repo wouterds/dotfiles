@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 
-# Ask for the administrator password upfront.
+# Privileges
 sudo -v
-
-# Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# Packages
 brew install git
 brew install bash
 brew install zsh
@@ -54,6 +53,11 @@ brew install gifski
 brew install ios-deploy
 brew install neofetch
 brew install googler
+brew cask install ngrok
+brew cask install adoptopenjdk8
+brew cask install android-sdk
+brew cask install android-platform-tools
+brew cask install gdisk
 
 # Cleanup
 brew cleanup

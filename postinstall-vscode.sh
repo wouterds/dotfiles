@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Code packages
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
 code --install-extension eamodio.gitlens
@@ -26,3 +25,6 @@ code --install-extension wix.vscode-import-cost
 code --install-extension mechatroner.rainbow-csv
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension octref.vetur
+
+# Copy settings
+rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
