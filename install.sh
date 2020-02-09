@@ -41,3 +41,6 @@ source .path
 ./postinstall-ruby.sh
 ./postinstall-vscode.sh
 ./postinstall-terminal.sh
+
+exit
+exit
