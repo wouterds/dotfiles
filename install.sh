@@ -33,6 +33,8 @@ rsync -avh --no-perms '.wgetrc' ~;
 rsync -avh --no-perms '.zshrc' ~;
 
 # Postinstall
+source .exports
+source .path
 ./postinstall-git.sh
 ./postinstall-node.sh
 ./postinstall-python.sh
