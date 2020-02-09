@@ -40,6 +40,8 @@ brew cask install tor-browser
 brew cask install discord
 brew cask install angry-ip-scanner
 brew cask install visual-studio-code
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
 brew cask install genymotion
 brew cask install teamviewer
 brew cask install ledger-live
