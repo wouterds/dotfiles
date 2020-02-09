@@ -4,11 +4,19 @@
 sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# Ask for computer name
+echo Enter the name of your macOS device, e.g.: Wouter's MacBook Pro
+read COMPUTER_NAME
+
+# Ask for computer hostname
+echo Enter the hostname of your macOS device, e.g.: macbook-pro-wouterds
+read COMPUTER_HOSTNAME
+
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "Wouter's MacBook Pro"
-sudo scutil --set HostName "macbook-pro-wouterds"
-sudo scutil --set LocalHostName "macbook-pro-wouterds"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "macbook-pro-wouterds"
+sudo scutil --set ComputerName $COMPUTER_NAME
+sudo scutil --set HostName $COMPUTER_HOSTNAME
+sudo scutil --set LocalHostName $COMPUTER_HOSTNAME
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string $COMPUTER_HOSTNAME
 
 # Allow apps from anywhere
 sudo spctl --master-disable
