@@ -38,12 +38,6 @@ source .exports
 source .path
 
 # Postinstall
-./postinstall-git.sh
-./postinstall-node.sh
-./postinstall-python.sh
-./postinstall-ruby.sh
-./postinstall-vscode.sh
-./postinstall-terminal.sh
+./postinstall.sh
 
-exit
 exit
