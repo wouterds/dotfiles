@@ -52,6 +52,7 @@ brew install gifski
 brew install ios-deploy
 brew install neofetch
 brew install googler
+brew tap cjbassi/ytop && brew install ytop
 brew cask install ngrok
 brew cask install homebrew/cask-versions/adoptopenjdk8
 brew cask install android-sdk
