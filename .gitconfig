@@ -22,11 +22,11 @@
 	pager = diff-so-fancy | less --tabs=4 -RFX
 
 [push]
-        default = simple
-        followTags = true
+	default = simple
+	followTags = true
 
 [pull]
-        rebase = true
+	rebase = true
 
 [diff]
 	renames = copies
@@ -35,7 +35,7 @@
 	textconv = hexdump -v -C
 
 [color]
-        ui = true
+	ui = true
 
 [color "diff-highlight"]
 	oldNormal = red bold
