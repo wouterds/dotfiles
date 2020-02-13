@@ -19,9 +19,14 @@
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 	trustctime = false
 	precomposeunicode = false
+	pager = diff-so-fancy | less --tabs=4 -RFX
 
-[color]
-	ui = always
+[push]
+        default = simple
+        followTags = true
+
+[pull]
+        rebase = true
 
 [diff]
 	renames = copies
@@ -29,6 +34,19 @@
 [diff "bin"]
 	textconv = hexdump -v -C
 
-[push]
-	default = simple
-	followTags = true
+[color]
+        ui = true
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
