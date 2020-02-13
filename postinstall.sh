@@ -1,5 +1,22 @@
 #!/usr/bin/env bash
 
+# Node
+npm install -g yarn
+npm install -g @react-native-community/cli
+npm install -g wml
+
+# Python
+easy_install pip
+easy_install pjson
+easy_install pygments
+easy_install statcode
+easy_install pyserial
+easy_install esptool
+
+# Ruby
+gem install cocoapods
+
+# VSCode
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
 code --install-extension eamodio.gitlens
@@ -22,6 +39,10 @@ code --install-extension wix.vscode-import-cost
 code --install-extension mechatroner.rainbow-csv
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension octref.vetur
-
-# Copy settings
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
+
+# Nano
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+
+# Terminal
+open init/wouterds.terminal
