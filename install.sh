@@ -33,9 +33,11 @@ rsync -avh --no-perms '.screenrc' ~;
 rsync -avh --no-perms '.wgetrc' ~;
 rsync -avh --no-perms '.zshrc' ~;
 
-# Postinstall
+# Load some dotfiles right now
 source .exports
 source .path
+
+# Postinstall
 ./postinstall-git.sh
 ./postinstall-node.sh
 ./postinstall-python.sh
