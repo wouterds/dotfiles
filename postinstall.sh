@@ -38,7 +38,6 @@ code --install-extension wix.vscode-import-cost
 code --install-extension mechatroner.rainbow-csv
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension octref.vetur
-code --install-extension wayou.vscode-todo-highlight
 code --install-extension shanoor.vscode-nginx
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
