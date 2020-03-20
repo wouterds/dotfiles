@@ -34,3 +34,6 @@ alias cat="pygmentize -g"
 
 # The Fuck
 eval "$(thefuck --alias)"
+
+# Download m3u8 playlist
+alias download-m3u8='echo "Enter m3u8 link:";read link;echo "Enter output filename:";read filename;ffmpeg -i "$link" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 50 $filename.mp4'
