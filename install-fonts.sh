@@ -12,6 +12,7 @@ brew cask install homebrew/cask-fonts/font-impact
 brew cask install homebrew/cask-fonts/font-public-sans
 brew cask install homebrew/cask-fonts/font-raleway
 brew cask install homebrew/cask-fonts/font-oswald
+brew cask install homebrew/cask-fonts/font-inter
 
 # Cleanup
 brew cleanup
