@@ -58,6 +58,7 @@ brew cask install imageoptim
 brew cask install intel-power-gadget
 brew cask install battle-net
 brew cask install microsoft-teams
+brew cask install harvest
 
 # Mac App Store apps
 mas install 443987910 # 1Password
