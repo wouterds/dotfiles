@@ -58,7 +58,6 @@ brew cask install imageoptim
 brew cask install intel-power-gadget
 brew cask install battle-net
 brew cask install microsoft-teams
-brew cask install harvest
 
 # Mac App Store apps
 mas install 443987910 # 1Password
@@ -87,6 +86,7 @@ mas install 462058435 # Microsoft Excel
 mas install 462062816 # Microsoft PowerPoint
 mas install 1351639930 # Gifski
 mas install 533696630 # Webcam Settings
+mas install 506189836 # Harvest
 
 # Cleanup
 brew cleanup
