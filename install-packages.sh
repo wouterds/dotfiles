@@ -20,7 +20,7 @@ brew install curl
 brew install wget
 brew install ruby
 brew install python
-brew install node
+brew install nvm
 brew install htop
 brew install ctop
 brew install autoconf
