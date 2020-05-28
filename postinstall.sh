@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # Node
-nvm install 14
-nvm use 14
+nvm install 'lts/*'
 npm install -g yarn
 npm install -g @react-native-community/cli
 npm install -g wml
