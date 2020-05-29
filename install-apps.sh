@@ -14,7 +14,6 @@ brew cask install firefox
 brew cask install keepingyouawake
 brew cask install docker
 brew cask install spotify
-brew cask install spotify-notifications
 brew cask install skype
 brew cask install messenger
 brew cask install whatsapp
