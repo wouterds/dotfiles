@@ -43,6 +43,7 @@ brew cask install runescape
 brew cask install imageoptim
 brew cask install intel-power-gadget
 brew cask install microsoft-teams
+brew cask install sonos
 
 # Mac App Store apps
 mas install 443987910 # 1Password
