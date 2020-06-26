@@ -46,6 +46,7 @@ brew cask install microsoft-teams
 brew cask install sonos
 brew cask install notion
 brew cask install hwsensors
+brew cask install paw
 
 # Mac App Store apps
 mas install 443987910 # 1Password
