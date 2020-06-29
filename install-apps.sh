@@ -47,6 +47,7 @@ brew cask install sonos
 brew cask install notion
 brew cask install hwsensors
 brew cask install paw
+brew cask install betaflight-configurator
 
 # Mac App Store apps
 mas install 443987910 # 1Password
