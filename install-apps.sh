@@ -48,6 +48,7 @@ brew cask install notion
 brew cask install hwsensors
 brew cask install paw
 brew cask install betaflight-configurator
+brew cask install cityofzion-neon
 
 # Mac App Store apps
 mas install 443987910 # 1Password
