@@ -61,3 +61,7 @@ randomsha1() {
 strlen() {
 	echo ${#1}
 }
+
+uuid() {
+  echo $(uuidgen) | tr '[:upper:]' '[:lower:]'
+}
