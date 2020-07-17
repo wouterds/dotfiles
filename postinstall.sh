@@ -22,6 +22,7 @@ gem install cocoapods
 # VSCode
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
+code --install-extension GitHub.github-vscode-theme
 code --install-extension eamodio.gitlens
 code --install-extension editorconfig.editorconfig
 code --install-extension flowtype.flow-for-vscode
