@@ -76,6 +76,7 @@ mas install 462058435 # Microsoft Excel
 mas install 462062816 # Microsoft PowerPoint
 mas install 533696630 # Webcam Settings
 mas install 506189836 # Harvest
+mas install 639968404 # Parcel
 
 # Cleanup
 brew cleanup
