@@ -50,6 +50,7 @@ brew cask install paw
 brew cask install postman
 brew cask install betaflight-configurator
 brew cask install robo-3t
+brew cask install lastpass
 
 # Mac App Store apps
 mas install 443987910 # 1Password
