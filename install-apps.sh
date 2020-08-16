@@ -18,7 +18,6 @@ brew cask install whatsapp
 brew cask install transmission
 brew cask install spectacle
 brew cask install viscosity
-brew cask install sequel-pro-nightly
 brew cask install sketch
 brew cask install alfred
 brew cask install vlc
