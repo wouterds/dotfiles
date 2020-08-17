@@ -30,7 +30,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # Pretty cat
-alias cat="pygmentize -g"
+alias cat="pygmentize -g -O style=monokai"
 
 # The Fuck
 eval "$(thefuck --alias)"
