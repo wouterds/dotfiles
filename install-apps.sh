@@ -48,7 +48,6 @@ brew cask install hwsensors
 brew cask install paw
 brew cask install postman
 brew cask install betaflight-configurator
-brew cask install robo-3t
 brew cask install lastpass
 brew cask install tableplus
 
