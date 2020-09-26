@@ -42,6 +42,7 @@ code --install-extension mechatroner.rainbow-csv
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension octref.vetur
 code --install-extension shanoor.vscode-nginx
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Nano
