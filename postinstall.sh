@@ -43,6 +43,7 @@ code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension octref.vetur
 code --install-extension shanoor.vscode-nginx
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension earshinov.permute-lines
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Nano
