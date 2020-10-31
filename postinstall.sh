@@ -44,6 +44,7 @@ code --install-extension octref.vetur
 code --install-extension shanoor.vscode-nginx
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension earshinov.permute-lines
+code --install-extension redhat.vscode-yaml
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Nano
