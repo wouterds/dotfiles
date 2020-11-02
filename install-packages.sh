@@ -58,6 +58,7 @@ brew cask install homebrew/cask-versions/adoptopenjdk8
 brew cask install android-sdk
 brew cask install android-platform-tools
 brew cask install gdisk
+brew install qrencode
 
 # Cleanup
 brew cleanup
