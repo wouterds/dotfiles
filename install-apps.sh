@@ -55,7 +55,6 @@ brew cask install maccy
 # Mac App Store apps
 mas install 443987910 # 1Password
 mas install 425424353 # The Unarchiver
-mas install 1020812363 # CopyClip 2
 mas install 411643860 # DaisyDisk
 mas install 1054607607 # Helium
 mas install 1014850245 # Monit
