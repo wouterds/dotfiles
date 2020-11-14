@@ -69,6 +69,7 @@ mas install 409183694 # Keynote
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
 mas install 497799835 # Xcode
+mas install 640199958 # Developer
 mas install 897814548 # Proxie
 mas install 462054704 # Microsoft Word
 mas install 462058435 # Microsoft Excel
