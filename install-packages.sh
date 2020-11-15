@@ -51,6 +51,7 @@ brew install ffmpeg
 brew install gifski
 brew install ios-deploy
 brew install neofetch
+brew install arp-scan
 brew install googler
 brew tap cjbassi/ytop && brew install ytop
 brew cask install ngrok
