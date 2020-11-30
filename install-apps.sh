@@ -42,7 +42,6 @@ brew cask install intel-power-gadget
 brew cask install microsoft-teams
 brew cask install sonos
 brew cask install notion
-brew cask install hwsensors
 brew cask install paw
 brew cask install postman
 brew cask install betaflight-configurator
