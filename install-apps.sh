@@ -14,7 +14,6 @@ brew cask install keepingyouawake
 brew cask install docker
 brew cask install spotify
 brew cask install skype
-brew cask install whatsapp
 brew cask install transmission
 brew cask install spectacle
 brew cask install viscosity
