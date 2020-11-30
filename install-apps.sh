@@ -77,6 +77,7 @@ mas install 462062816 # Microsoft PowerPoint
 mas install 533696630 # Webcam Settings
 mas install 506189836 # Harvest
 mas install 639968404 # Parcel
+mas install 1147396723 # WhatsApp
 
 # Cleanup
 brew cleanup
