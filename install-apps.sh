@@ -32,7 +32,6 @@ brew cask install visual-studio-code
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew cask install genymotion
-brew cask install teamviewer
 brew cask install ledger-live
 brew cask install handbrake
 brew cask install ipvanish-vpn
