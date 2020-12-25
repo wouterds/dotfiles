@@ -54,11 +54,11 @@ brew install neofetch
 brew install arp-scan
 brew install googler
 brew tap cjbassi/ytop && brew install ytop
-brew cask install ngrok
-brew cask install homebrew/cask-versions/adoptopenjdk8
-brew cask install android-sdk
-brew cask install android-platform-tools
-brew cask install gdisk
+brew install --cask ngrok
+brew install --cask homebrew/cask-versions/adoptopenjdk8
+brew install --cask android-sdk
+brew install --cask android-platform-tools
+brew install --cask gdisk
 brew install qrencode
 
 # Cleanup
