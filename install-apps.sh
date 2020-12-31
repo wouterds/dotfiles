@@ -46,6 +46,7 @@ brew install --cask betaflight-configurator
 brew install --cask lastpass
 brew install --cask tableplus
 brew install --cask maccy
+brew install --cask monitorcontrol
 
 # Mac App Store apps
 mas install 443987910 # 1Password
