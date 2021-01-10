@@ -47,6 +47,7 @@ brew install --cask lastpass
 brew install --cask tableplus
 brew install --cask maccy
 brew install --cask monitorcontrol
+brew install --cask signal
 
 # Mac App Store apps
 mas install 443987910 # 1Password
