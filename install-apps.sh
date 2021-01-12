@@ -48,6 +48,7 @@ brew install --cask tableplus
 brew install --cask maccy
 brew install --cask monitorcontrol
 brew install --cask signal
+brew install --cask lulu
 
 # Mac App Store apps
 mas install 443987910 # 1Password
