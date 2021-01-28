@@ -60,6 +60,7 @@ brew install --cask android-sdk
 brew install --cask android-platform-tools
 brew install --cask gdisk
 brew install qrencode
+brew install mkcert
 
 # Cleanup
 brew cleanup
