@@ -49,6 +49,7 @@ brew install --cask maccy
 brew install --cask monitorcontrol
 brew install --cask signal
 brew install --cask lulu
+brew install --cask jabra-direct
 
 # Mac App Store apps
 mas install 443987910 # 1Password
