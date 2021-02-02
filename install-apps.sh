@@ -50,6 +50,7 @@ brew install --cask monitorcontrol
 brew install --cask signal
 brew install --cask lulu
 brew install --cask jabra-direct
+brew install --cask tradingview
 
 # Mac App Store apps
 mas install 443987910 # 1Password
