@@ -51,6 +51,7 @@ brew install --cask signal
 brew install --cask lulu
 brew install --cask jabra-direct
 brew install --cask tradingview
+brew install --cask figma
 
 # Mac App Store apps
 mas install 443987910 # 1Password
