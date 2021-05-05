@@ -61,6 +61,7 @@ brew install --cask android-platform-tools
 brew install --cask gdisk
 brew install qrencode
 brew install mkcert
+brew install p7zip
 
 # Cleanup
 brew cleanup
