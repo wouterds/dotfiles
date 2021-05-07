@@ -9,12 +9,11 @@ npm install -g wml
 npm install -g vtop
 
 # Python
-easy_install pip
-easy_install pjson
-easy_install pygments
-easy_install statcode
-easy_install pyserial
-easy_install esptool
+pip install pjson
+pip install pygments
+pip install statcode
+pip install pyserial
+pip install esptool
 
 # Ruby
 gem install cocoapods
