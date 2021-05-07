@@ -12,7 +12,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 # Install packages, drivers, apps & fonts
 ./install-packages.sh
-./install-drivers.sh
 ./install-apps.sh
 ./install-fonts.sh
 
