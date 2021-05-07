@@ -22,11 +22,9 @@ brew install --cask alfred
 brew install --cask vlc
 brew install --cask bartender
 brew install --cask transmit4
-brew install --cask balenaetcher
 brew install --cask appcleaner
 brew install --cask zoomus
 brew install --cask telegram
-brew install --cask tor-browser
 brew install --cask discord
 brew install --cask visual-studio-code
 brew install --cask virtualbox
@@ -34,8 +32,6 @@ brew install --cask virtualbox-extension-pack
 brew install --cask genymotion
 brew install --cask ledger-live
 brew install --cask handbrake
-brew install --cask ipvanish-vpn
-brew install --cask runescape
 brew install --cask imageoptim
 brew install --cask intel-power-gadget
 brew install --cask microsoft-teams
@@ -48,7 +44,6 @@ brew install --cask tableplus
 brew install --cask maccy
 brew install --cask monitorcontrol
 brew install --cask signal
-brew install --cask lulu
 brew install --cask jabra-direct
 brew install --cask tradingview
 brew install --cask figma
@@ -75,7 +70,6 @@ mas install 897814548 # Proxie
 mas install 462054704 # Microsoft Word
 mas install 462058435 # Microsoft Excel
 mas install 462062816 # Microsoft PowerPoint
-mas install 533696630 # Webcam Settings
 mas install 506189836 # Harvest
 mas install 639968404 # Parcel
 mas install 1147396723 # WhatsApp
