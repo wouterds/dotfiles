@@ -1,6 +1,6 @@
 {
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "GitHub Light",
   "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.lineHeight": 26,
@@ -9,5 +9,8 @@
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
   "editor.scrollBeyondLastLine": false,
-  "editor.renderLineHighlight": "all"
+  "editor.renderLineHighlight": "all",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "window.autoDetectColorScheme": true
 }
