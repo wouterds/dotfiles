@@ -53,7 +53,7 @@ brew install ios-deploy
 brew install neofetch
 brew install arp-scan
 brew install googler
-brew tap cjbassi/ytop && brew install ytop
+brew install clementtsang/bottom/bottom
 brew install --cask ngrok
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 brew install --cask android-sdk
