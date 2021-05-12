@@ -44,9 +44,9 @@ brew install --cask tableplus
 brew install --cask maccy
 brew install --cask monitorcontrol
 brew install --cask signal
-brew install --cask jabra-direct
 brew install --cask tradingview
 brew install --cask figma
+brew install homebrew/cask-drivers/jabra-direct
 
 # Mac App Store apps
 mas install 443987910 # 1Password
