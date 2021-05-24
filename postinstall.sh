@@ -45,6 +45,7 @@ code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension earshinov.permute-lines
 code --install-extension redhat.vscode-yaml
 code --install-extension juanblanco.solidity
+code --install-extension cpylua.language-postcss
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Nano
