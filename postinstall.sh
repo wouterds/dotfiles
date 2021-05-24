@@ -46,6 +46,7 @@ code --install-extension earshinov.permute-lines
 code --install-extension redhat.vscode-yaml
 code --install-extension juanblanco.solidity
 code --install-extension cpylua.language-postcss
+code --install-extension stylelint.vscode-stylelint
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Nano
