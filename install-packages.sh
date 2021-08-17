@@ -63,6 +63,7 @@ brew install qrencode
 brew install mkcert
 brew install p7zip
 brew install git-remote-codecommit
+brew install tree
 
 # Cleanup
 brew cleanup
