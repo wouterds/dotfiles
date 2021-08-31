@@ -47,6 +47,7 @@ brew install --cask signal
 brew install --cask tradingview
 brew install --cask figma
 brew install --cask timemachineeditor
+brew install --cask flipper
 brew install homebrew/cask-drivers/jabra-direct
 
 # Mac App Store apps
