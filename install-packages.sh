@@ -64,6 +64,8 @@ brew install mkcert
 brew install p7zip
 brew install git-remote-codecommit
 brew install --cask robo-3t
+brew install tree
+brew install act
 
 # Cleanup
 brew cleanup
