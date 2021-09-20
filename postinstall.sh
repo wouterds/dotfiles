@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Android
+mkdir ~/.android
+touch ~/.android/repositories.cfg
+yes | sdkmanager --licenses
+sdkmanager "platform-tools" "platforms;android-29" "build-tools;28.0.3"
+
 # Node
 nvm install --lts
 nvm use --lts

@@ -55,9 +55,9 @@ brew install arp-scan
 brew install googler
 brew install clementtsang/bottom/bottom
 brew install --cask ngrok
-brew install --cask homebrew/cask-versions/adoptopenjdk8
-brew install --cask android-sdk
-brew install --cask android-platform-tools
+brew install adoptopenjdk8
+brew install gradle
+brew install android-sdk
 brew install --cask gdisk
 brew install qrencode
 brew install mkcert

@@ -23,7 +23,8 @@ export MANPAGER='less -X';
 export GREP_OPTIONS='--color=auto';
 
 # Android dev tools
-export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export GRADLE_HOME=/usr/local/opt/gradle
 export ANDROID_HOME=/usr/local/share/android-sdk
 
 # NVM
