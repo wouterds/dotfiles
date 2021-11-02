@@ -49,6 +49,3 @@ brew install android-sdk
 brew install git-remote-codecommit
 brew install tree
 brew install act
-
-# Cleanup
-brew cleanup

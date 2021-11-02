@@ -61,3 +61,6 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 
 # Terminal
 open init/wouterds.terminal
+
+# Cleanup
+brew cleanup
