@@ -43,7 +43,7 @@ brew install ios-deploy
 brew install neofetch
 brew install bottom
 brew install ngrok
-brew install adoptopenjdk8
+brew install temurin
 brew install gradle
 brew install android-sdk
 brew install git-remote-codecommit
