@@ -15,11 +15,11 @@ npm install -g wml
 npm install -g vtop
 
 # Python
-pip install pjson
-pip install pygments
-pip install statcode
-pip install pyserial
-pip install esptool
+pip3 install pjson
+pip3 install pygments
+pip3 install statcode
+pip3 install pyserial
+pip3 install esptool
 
 # Ruby
 gem install cocoapods
