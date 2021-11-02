@@ -42,3 +42,5 @@ function precmd() {
     unset timer
   fi
 }
+
+export GPG_TTY=$(tty)
