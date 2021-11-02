@@ -4,6 +4,9 @@ export PATH="/opt/homebrew/bin:$PATH"
 # Set name of the theme to load, look in ~/.oh-my-zsh/themes/
 ZSH_THEME="agnoster"
 
+# History file
+HISTFILE=~/Dropbox/dotfiles/zsh-history
+
 # Default user
 DEFAULT_USER=wouterds
 
