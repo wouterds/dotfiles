@@ -58,6 +58,7 @@ rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.
 
 # Nano
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+echo "include $install_path/*.nanorc" >> ~/.nanorc
 
 # Terminal
 open init/wouterds.terminal
