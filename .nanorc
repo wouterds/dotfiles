@@ -1,4 +1,2 @@
-include /usr/local/share/nano/*.nanorc
-
 # Disable auto wrapping of long lines
 set nowrap
