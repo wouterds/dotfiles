@@ -5,63 +5,49 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Apps
-brew install --cask android-studio
-brew install --cask androidtool
-brew install --cask dropbox
-brew install --cask google-chrome
-brew install --cask firefox
-brew install --cask keepingyouawake
-brew install --cask docker
-brew install --cask spotify
-brew install --cask skype
-brew install --cask transmission
-brew install --cask spectacle
-brew install --cask viscosity
-brew install --cask sketch
-brew install --cask alfred
-brew install --cask vlc
-brew install --cask bartender
-brew install --cask transmit4
-brew install --cask appcleaner
-brew install --cask zoomus
-brew install --cask telegram
-brew install --cask discord
-brew install --cask visual-studio-code
-brew install --cask virtualbox
-brew install --cask virtualbox-extension-pack
-brew install --cask genymotion
-brew install --cask ledger-live
-brew install --cask handbrake
-brew install --cask imageoptim
-brew install --cask intel-power-gadget
-brew install --cask microsoft-teams
-brew install --cask sonos
-brew install --cask notion
-brew install --cask postman
-brew install --cask betaflight-configurator
-brew install --cask lastpass
-brew install --cask tableplus
-brew install --cask maccy
-brew install --cask monitorcontrol
-brew install --cask signal
-brew install --cask tradingview
-brew install --cask figma
-brew install --cask timemachineeditor
-brew install --cask flipper
+brew install android-studio
+brew install dropbox
+brew install google-chrome
+brew install keepingyouawake
+brew install docker
+brew install spotify
+brew install transmission
+brew install spectacle
+brew install viscosity
+brew install sketch
+brew install alfred
+brew install vlc
+brew install bartender
+brew install appcleaner
+brew install zoomus
+brew install telegram
+brew install discord
+brew install visual-studio-code
+brew install ledger-live
+brew install handbrake
+brew install imageoptim
+brew install microsoft-teams
+brew install notion
+brew install postman
+brew install tableplus
+brew install maccy
+brew install monitorcontrol
+brew install signal
+brew install tradingview
+brew install figma
+brew install timemachineeditor
+brew install flipper
+brew install homebrew/cask-drivers/sonos
 brew install homebrew/cask-drivers/jabra-direct
 
 # Mac App Store apps
 mas install 443987910 # 1Password
 mas install 425424353 # The Unarchiver
 mas install 411643860 # DaisyDisk
-mas install 1054607607 # Helium
-mas install 1014850245 # Monit
 mas install 1482454543 # Twitter
 mas install 1480068668 # Messenger
 mas install 803453959 # Slack
 mas install 457622435 # Yoink
-mas install 507257563 # Sip
-mas install 880001334 # Reeder
 mas install 1153157709 # Speedtest
 mas install 409183694 # Keynote
 mas install 409201541 # Pages
@@ -72,7 +58,7 @@ mas install 897814548 # Proxie
 mas install 462054704 # Microsoft Word
 mas install 462058435 # Microsoft Excel
 mas install 462062816 # Microsoft PowerPoint
-mas install 506189836 # Harvest
+mas install 985367838 # Microsoft Outlook
 mas install 639968404 # Parcel
 mas install 1147396723 # WhatsApp
 mas install 937984704 # Amphetamine
