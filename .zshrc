@@ -1,4 +1,5 @@
 export ZSH=/Users/wouterds/.oh-my-zsh
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Set name of the theme to load, look in ~/.oh-my-zsh/themes/
 ZSH_THEME="agnoster"
