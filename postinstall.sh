@@ -8,8 +8,9 @@ sdkmanager "platform-tools" "platforms;android-29" "build-tools;28.0.3"
 
 # Node
 mkdir ~/.nvm
-nvm install --lts
-nvm use --lts
+nvm install 16
+nvm use 16
+nvm alias default 16
 npm install -g yarn
 npm install -g @react-native-community/cli
 npm install -g wml
