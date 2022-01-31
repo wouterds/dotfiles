@@ -39,6 +39,7 @@ brew install timemachineeditor
 brew install flipper
 brew install coconutbattery
 brew install displaperture
+brew install muzzle
 brew install homebrew/cask-drivers/sonos
 brew install homebrew/cask-drivers/jabra-direct
 
