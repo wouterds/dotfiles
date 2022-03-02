@@ -65,3 +65,4 @@ mas install 985367838 # Microsoft Outlook
 mas install 639968404 # Parcel
 mas install 1147396723 # WhatsApp
 mas install 937984704 # Amphetamine
+mas install 1287239339 # ColorSlurp
