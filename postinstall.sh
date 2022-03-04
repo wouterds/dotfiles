@@ -19,8 +19,6 @@ npm install -g vtop
 # Python
 pip3 install pjson
 pip3 install pygments
-pip3 install statcode
-pip3 install pyserial
 pip3 install esptool
 
 # Ruby
