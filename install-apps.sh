@@ -40,6 +40,7 @@ brew install --cask flipper
 brew install --cask coconutbattery
 brew install --cask displaperture
 brew install --cask muzzle
+brew install --cask hot
 brew install homebrew/cask-drivers/sonos
 brew install homebrew/cask-drivers/jabra-direct
 
