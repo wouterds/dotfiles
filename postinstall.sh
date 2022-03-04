@@ -21,9 +21,6 @@ pip3 install pjson
 pip3 install pygments
 pip3 install esptool
 
-# Ruby
-gem install cocoapods
-
 # VSCode
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension GitHub.github-vscode-theme
