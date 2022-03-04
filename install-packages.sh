@@ -18,7 +18,7 @@ brew install gpg
 brew install telnet
 brew install curl
 brew install wget
-brew install ruby
+brew install rbenv
 brew install python
 brew install nvm
 brew install htop
