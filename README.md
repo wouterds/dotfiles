@@ -4,4 +4,6 @@ Personal preferences, apps, tools and more.
 
 ## Prerequisites
 
-Have Xcode installed & homebrew correctly setup.
+- Xcode installed
+- Homebrew installed
+- Logged in into App Store
