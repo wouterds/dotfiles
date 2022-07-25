@@ -35,7 +35,6 @@ code --install-extension mikestead.dotenv
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension vsmobile.vscode-react-native
-code --install-extension vsciot-vscode.vscode-arduino
 code --install-extension clinyong.hookyqr.beautify
 code --install-extension ecmel.vscode-html-css
 code --install-extension jpoissonnier.vscode-styled-components
