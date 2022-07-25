@@ -14,7 +14,6 @@ brew install --cask android-studio
 brew install --cask keepingyouawake
 brew install --cask raycast
 brew install --cask viscosity
-brew install --cask alfred4
 brew install --cask bartender
 brew install --cask appcleaner
 brew install --cask telegram
