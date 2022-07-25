@@ -44,3 +44,5 @@ function precmd() {
 }
 
 export GPG_TTY=$(tty)
+
+eval "$(rbenv init - zsh)"
