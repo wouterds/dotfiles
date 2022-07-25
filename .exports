@@ -22,12 +22,10 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
-# Android dev tools
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
-export GRADLE_HOME=/usr/local/opt/gradle
-export ANDROID_HOME=/opt/homebrew/Caskroom/android-sdk/4333796 # find this with brew info android-sdk
-
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# FIX THE FUCK
+export THEFUCK_PRIORITY="git_hook_bypass=1100"
