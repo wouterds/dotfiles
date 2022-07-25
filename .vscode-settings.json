@@ -5,7 +5,6 @@
   "editor.fontSize": 13,
   "editor.lineHeight": 26,
   "editor.renderWhitespace": "all",
-  "editor.renderIndentGuides": false,
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
   "editor.scrollBeyondLastLine": false,
