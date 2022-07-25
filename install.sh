@@ -20,7 +20,6 @@ rsync -avh --no-perms '.aliases' ~;
 rsync -avh --no-perms '.exports' ~;
 rsync -avh --no-perms '.functions' ~;
 rsync -avh --no-perms '.gitconfig' ~;
-rsync -avh --no-perms '.gitignore' ~;
 rsync -avh --no-perms '.nanorc' ~;
 rsync -avh --no-perms '.path' ~;
 rsync -avh --no-perms '.zshrc' ~;
