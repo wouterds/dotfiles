@@ -19,7 +19,7 @@ npm install -g vtop
 # Python
 pip3 install pjson
 pip3 install pygments
-pip3 install esptool
+pip3 install asitop
 
 # VSCode
 code --install-extension dbaeumer.vscode-eslint
