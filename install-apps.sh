@@ -39,6 +39,8 @@ brew install --cask displaperture
 brew install --cask muzzle
 
 # Mac App Store apps
+mas install 497799835 # Xcode
+mas install 1037126344 # Apple Configurator
 mas install 1333542190 # 1Password 7
 mas install 425424353 # The Unarchiver
 mas install 411643860 # DaisyDisk
@@ -50,7 +52,6 @@ mas install 1153157709 # Speedtest
 mas install 409183694 # Keynote
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
-mas install 497799835 # Xcode
 mas install 1147396723 # WhatsApp
 mas install 937984704 # Amphetamine
 mas install 1287239339 # ColorSlurp
