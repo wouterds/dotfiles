@@ -30,6 +30,6 @@ brew install tig
 brew install neofetch
 brew install bottom
 brew install ngrok
-brew install homebrew/cask-versions/temurin8
+brew install --cask zulu11
+brew install android-commandlinetools
 brew install gradle
-brew install android-sdk
