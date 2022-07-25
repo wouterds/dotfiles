@@ -30,7 +30,6 @@ brew install --cask handbrake
 brew install --cask imageoptim
 brew install --cask notion
 brew install --cask tableplus
-brew install --cask maccy
 brew install --cask monitorcontrol
 brew install --cask figma
 brew install --cask timemachineeditor
