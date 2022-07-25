@@ -7,9 +7,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # macOS preferences
 ./macos-prefs.sh
 
-# Install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 # Install packages, drivers, apps & fonts
 ./install-packages.sh
 ./install-apps.sh
