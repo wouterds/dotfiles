@@ -41,7 +41,8 @@ brew install --cask displaperture
 brew install --cask muzzle
 
 # Mac App Store apps
-mas install 443987910 # 1Password
+mas install 1569813296 # 1Password for Safari
+mas install 1333542190 # 1Password 7
 mas install 425424353 # The Unarchiver
 mas install 411643860 # DaisyDisk
 mas install 1482454543 # Twitter
