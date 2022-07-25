@@ -30,7 +30,6 @@ brew install tig
 brew install neofetch
 brew install bottom
 brew install ngrok
-brew tap homebrew/cask-versions
 brew install --cask zulu11
 brew install android-commandlinetools
 brew install gradle
