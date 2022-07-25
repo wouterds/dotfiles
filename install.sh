@@ -21,15 +21,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # Dotfiles
 rsync -avh --no-perms '.aliases' ~;
-rsync -avh --no-perms '.editorconfig' ~;
 rsync -avh --no-perms '.exports' ~;
 rsync -avh --no-perms '.functions' ~;
 rsync -avh --no-perms '.gitconfig' ~;
 rsync -avh --no-perms '.gitignore' ~;
 rsync -avh --no-perms '.nanorc' ~;
 rsync -avh --no-perms '.path' ~;
-rsync -avh --no-perms '.screenrc' ~;
-rsync -avh --no-perms '.wgetrc' ~;
 rsync -avh --no-perms '.zshrc' ~;
 
 # Load some dotfiles right now
