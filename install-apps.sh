@@ -12,7 +12,7 @@ brew install --cask docker
 brew install --cask proxyman
 brew install --cask android-studio
 brew install --cask keepingyouawake
-brew install --cask spectacle
+brew install --cask rectangle
 brew install --cask viscosity
 brew install --cask alfred4
 brew install --cask bartender
