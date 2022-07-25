@@ -52,10 +52,6 @@ mas install 409201541 # Pages
 mas install 409203825 # Numbers
 mas install 497799835 # Xcode
 mas install 640199958 # Developer
-mas install 462054704 # Microsoft Word
-mas install 462058435 # Microsoft Excel
-mas install 462062816 # Microsoft PowerPoint
-mas install 985367838 # Microsoft Outlook
 mas install 639968404 # Parcel
 mas install 1147396723 # WhatsApp
 mas install 937984704 # Amphetamine
