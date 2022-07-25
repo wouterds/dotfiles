@@ -15,10 +15,6 @@ brew tap homebrew/cask-versions
 ./install-apps.sh
 ./install-fonts.sh
 
-# Oh my ZSH!
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
 # Dotfiles
 rsync -avh --no-perms '.aliases' ~;
 rsync -avh --no-perms '.exports' ~;
