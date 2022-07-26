@@ -14,7 +14,7 @@ nvm alias default 18
 npm install -g yarn
 npm install -g @react-native-community/cli
 npm install -g papapackage
-npm install -g vtop
+npm install -g ios-deploy
 
 # Python
 pip3 install pjson
