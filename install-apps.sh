@@ -35,7 +35,6 @@ brew install --cask figma
 brew install --cask timemachineeditor
 brew install --cask flipper
 brew install --cask coconutbattery
-brew install --cask displaperture
 brew install --cask muzzle
 
 # Mac App Store apps
