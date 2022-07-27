@@ -54,3 +54,5 @@ mas install 409203825 # Numbers
 mas install 1147396723 # WhatsApp
 mas install 937984704 # Amphetamine
 mas install 1287239339 # ColorSlurp
+mas install 1365531024 # 1Blocker
+mas install 1520333300 # Wappalyzer
