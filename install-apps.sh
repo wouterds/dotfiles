@@ -56,3 +56,4 @@ mas install 937984704 # Amphetamine
 mas install 1287239339 # ColorSlurp
 mas install 1365531024 # 1Blocker
 mas install 1520333300 # Wappalyzer
+mas install 1458969831 # JSONPeep
