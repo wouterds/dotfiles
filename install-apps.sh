@@ -36,6 +36,7 @@ brew install --cask timemachineeditor
 brew install --cask flipper
 brew install --cask coconutbattery
 brew install --cask muzzle
+brew install --cask obs
 
 # Mac App Store apps
 mas install 497799835 # Xcode
