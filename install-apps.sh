@@ -37,6 +37,7 @@ brew install --cask flipper
 brew install --cask coconutbattery
 brew install --cask muzzle
 brew install --cask obs
+brew install --cask tunnelbear
 
 # Mac App Store apps
 mas install 497799835 # Xcode
