@@ -53,3 +53,7 @@
 
 [rerere]
 	enabled = true
+
+[interactive]
+	diffFilter = diff-so-fancy --patch
+
