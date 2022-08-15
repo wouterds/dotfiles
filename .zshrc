@@ -8,7 +8,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -70,7 +71,11 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#plugins=(git)
+plugins=(
+  git
+  zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,6 +92,11 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+if [[ -n $SSH_CONNECTION ]]; then
+        export EDITOR='nano'
+else
+        export EDITOR='nano'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -100,29 +110,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-ZSH_THEME="agnoster"
+# Sync history across workstations using Dropbox
 HISTFILE=~/Dropbox/dotfiles/zsh-history
-DEFAULT_USER=wouterds
 
-# Preferred editor
-if [[ -n $SSH_CONNECTION ]]; then
-	export EDITOR='nano'
-else
-	export EDITOR='nano'
-fi
-
-# Load dotfiles
+# Load custom dotfiles
 for file in ~/.{exports,path,aliases,functions}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
 
-# Command execution time (start)
+# Command execution time
 function preexec() {
   timer=${timer:-$SECONDS}
 }
-
-# Command execution time (end)
 function precmd() {
   if [ $timer ]; then
     timer_show=$(($SECONDS - $timer))
