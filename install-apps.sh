@@ -39,6 +39,7 @@ brew install --cask muzzle
 brew install --cask obs
 brew install --cask tunnelbear
 brew install --cask raspberry-pi-imager
+brew install --cask google-drive
 
 # Mac App Store apps
 mas install 497799835 # Xcode
