@@ -1,5 +1,7 @@
-export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+
+# brew python
+export PATH=/opt/homebrew/opt/python/libexec/bin:$PATH
 
 # android sdk
 export ANDROID_HOME=/opt/homebrew/share/android-commandlinetools
