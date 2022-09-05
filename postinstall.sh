@@ -4,7 +4,7 @@
 mkdir ~/.android
 touch ~/.android/repositories.cfg
 yes | sdkmanager --licenses
-sdkmanager "platform-tools" "platforms;android-29" "build-tools;30.0.2"
+sdkmanager "platforms;android-30" "cmdline-tools;latest" "build-tools;31.0.0"
 
 # Node
 mkdir ~/.nvm
