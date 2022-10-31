@@ -63,3 +63,4 @@ mas install 1365531024 # 1Blocker
 mas install 1520333300 # Wappalyzer
 mas install 1458969831 # JSONPeep
 mas install 1539402906 # VikingDeals
+mas install 1569813296 # 1Password for Safari
