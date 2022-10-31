@@ -40,11 +40,11 @@ brew install --cask obs
 brew install --cask tunnelbear
 brew install --cask raspberry-pi-imager
 brew install --cask google-drive
+brew install --cask 1password
 
 # Mac App Store apps
 mas install 497799835 # Xcode
 mas install 1037126344 # Apple Configurator
-mas install 1333542190 # 1Password 7
 mas install 425424353 # The Unarchiver
 mas install 411643860 # DaisyDisk
 mas install 1482454543 # Twitter
