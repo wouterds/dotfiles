@@ -41,6 +41,7 @@ brew install --cask tunnelbear
 brew install --cask raspberry-pi-imager
 brew install --cask google-drive
 brew install --cask 1password
+brew install --cask pdf-squeezer
 
 # Mac App Store apps
 mas install 497799835 # Xcode
