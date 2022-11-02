@@ -27,7 +27,6 @@ brew install --cask spotify
 brew install --cask sonos
 brew install --cask vlc
 brew install --cask handbrake
-brew install --cask imageoptim
 brew install --cask notion
 brew install --cask tableplus
 brew install --cask monitorcontrol
