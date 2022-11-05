@@ -31,7 +31,6 @@ brew install --cask notion
 brew install --cask tableplus
 brew install --cask monitorcontrol
 brew install --cask figma
-brew install --cask timemachineeditor
 brew install --cask flipper
 brew install --cask coconutbattery
 brew install --cask muzzle
