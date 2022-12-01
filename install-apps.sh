@@ -41,6 +41,7 @@ brew install --cask google-drive
 brew install --cask 1password
 brew install --cask devtoys
 brew install --cask balenaetcher
+brew install --cask alfred
 
 # Mac App Store apps
 mas install 497799835 # Xcode
