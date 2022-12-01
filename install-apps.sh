@@ -42,6 +42,7 @@ brew install --cask 1password
 brew install --cask devtoys
 brew install --cask balenaetcher
 brew install --cask alfred
+brew install --cask rectangle
 
 # Mac App Store apps
 mas install 497799835 # Xcode
