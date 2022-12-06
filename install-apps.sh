@@ -66,3 +66,4 @@ mas install 1520333300 # Wappalyzer
 mas install 1458969831 # JSONPeep
 mas install 1569813296 # 1Password for Safari
 mas install 1429033973 # RunCat
+mas install 1527619437 # Maccy
