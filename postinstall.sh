@@ -12,7 +12,6 @@ nvm install 18
 nvm use 18
 nvm alias default 18
 npm install -g yarn
-npm install -g @react-native-community/cli
 npm install -g papapackage
 npm install -g ios-deploy
 
