@@ -58,7 +58,6 @@ mas install 409183694 # Keynote
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
 mas install 1147396723 # WhatsApp
-mas install 937984704 # Amphetamine
 mas install 639968404 # Parcel
 mas install 1287239339 # ColorSlurp
 mas install 1365531024 # 1Blocker
