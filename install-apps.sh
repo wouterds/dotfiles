@@ -43,6 +43,7 @@ brew install --cask devtoys
 brew install --cask balenaetcher
 brew install --cask alfred
 brew install --cask rectangle
+brew install --cask steam
 
 # Mac App Store apps
 mas install 497799835 # Xcode
