@@ -62,3 +62,4 @@ mas install 1147396723 # WhatsApp
 mas install 639968404 # Parcel
 mas install 1287239339 # ColorSlurp
 mas install 1527619437 # Maccy
+mas install 1543920362 # Displapertur
