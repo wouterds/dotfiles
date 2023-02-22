@@ -55,7 +55,7 @@ rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 
 # Terminal
-open init/wouterds.terminal
+open wouterds.terminal
 
 # Cleanup
 brew cleanup
