@@ -33,7 +33,6 @@ brew install --cask monitorcontrol
 brew install --cask figma
 brew install --cask flipper
 brew install --cask coconutbattery
-brew install --cask muzzle
 brew install --cask obs
 brew install --cask tunnelbear
 brew install --cask raspberry-pi-imager
