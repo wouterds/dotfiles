@@ -49,6 +49,7 @@ code --install-extension juanblanco.solidity
 code --install-extension cpylua.language-postcss
 code --install-extension stylelint.vscode-stylelint
 code --install-extension jianbingfang.dupchecker
+code --install-extension GitHub.copilot
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Nano
