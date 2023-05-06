@@ -36,3 +36,6 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 
 # ip
 alias ip='curl https://ipinfo.io/ip'
+
+# cleanup branches
+alias cleanbr='git branch | grep -v $(git rev-parse --abbrev-ref HEAD) | xargs git branch -D'
