@@ -50,6 +50,7 @@ code --install-extension cpylua.language-postcss
 code --install-extension stylelint.vscode-stylelint
 code --install-extension jianbingfang.dupchecker
 code --install-extension GitHub.copilot
+code --install-extension dracula-theme.theme-dracula
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Nano
