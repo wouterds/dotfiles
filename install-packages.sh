@@ -9,6 +9,7 @@ brew install git
 brew install bash
 brew install zsh
 brew install nano
+brew install coreutils
 brew install grep
 brew install gpg
 brew install curl
