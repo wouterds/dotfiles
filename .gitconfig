@@ -26,7 +26,6 @@
 
 [push]
 	default = simple
-	followTags = true
 
 [pull]
 	rebase = true
