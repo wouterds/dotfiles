@@ -20,6 +20,7 @@ brew install nvm
 brew install htop
 brew install ctop
 brew install screen
+brew install plow
 brew install watchman
 brew install ssh-copy-id
 brew install diff-so-fancy
