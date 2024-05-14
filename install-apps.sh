@@ -40,9 +40,8 @@ brew install --cask google-drive
 brew install --cask 1password
 brew install --cask devtoys
 brew install --cask balenaetcher
-brew install --cask alfred
-brew install --cask rectangle
 brew install --cask steam
+brew install --cask raycast
 
 # Mac App Store apps
 mas install 497799835 # Xcode
@@ -60,5 +59,4 @@ mas install 409203825 # Numbers
 mas install 1147396723 # WhatsApp
 mas install 639968404 # Parcel
 mas install 1287239339 # ColorSlurp
-mas install 1527619437 # Maccy
 mas install 1543920362 # Displapertur
