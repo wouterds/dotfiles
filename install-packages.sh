@@ -35,4 +35,4 @@ brew install ngrok
 brew install --cask zulu11
 brew install android-commandlinetools
 brew install gradle
-brew install exa
+brew install eza

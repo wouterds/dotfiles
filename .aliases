@@ -41,4 +41,4 @@ alias ip='curl https://ipinfo.io/ip'
 alias cleanbr='git branch | grep -v $(git rev-parse --abbrev-ref HEAD) | xargs git branch -D'
 
 # fancy ls
-alias ls="exa"
+alias ls="eza"
