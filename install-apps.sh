@@ -34,6 +34,7 @@ brew install --cask flipper
 brew install --cask coconutbattery
 brew install --cask obs
 brew install --cask tunnelbear
+brew install --cask balenaetcher
 brew install --cask raspberry-pi-imager
 brew install --cask google-drive
 brew install --cask 1password
