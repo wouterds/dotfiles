@@ -19,7 +19,6 @@ brew install --cask appcleaner
 brew install --cask telegram
 brew install --cask signal
 brew install --cask discord
-brew install --cask microsoft-teams
 brew install --cask zoom
 brew install --cask ledger-live
 brew install --cask tradingview
