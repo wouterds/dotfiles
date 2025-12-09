@@ -1,3 +1,4 @@
 # Disable auto wrapping of long lines
 set nowrap
 
+include "/opt/homebrew/Cellar/nano/*/share/nano/*.nanorc"
