@@ -4,9 +4,6 @@
 sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-git config --global user.email "wouter.de.schuyter@gmail.com"
-git config --global user.name "Wouter De Schuyter"
-
 # macOS preferences
 ./macos-prefs.sh
 
