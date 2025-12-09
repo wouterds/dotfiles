@@ -16,9 +16,9 @@ npm install -g papapackage
 npm install -g ios-deploy
 
 # Python
-pip3 install pjson
-pip3 install pygments
-pip3 install asitop
+pipx install pjson
+pipx install pygments
+pipx install asitop
 
 # VSCode
 code --install-extension dbaeumer.vscode-eslint
