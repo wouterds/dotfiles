@@ -1,9 +1,6 @@
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
-# Get week number
-alias week='date +%V'
-
 # Get unix timestamp
 alias unixtime='date +%s'
 
@@ -12,12 +9,6 @@ command -v md5sum > /dev/null || alias md5sum="md5"
 
 # OS X has no `sha1sum`, so use `shasum` as a fallback
 command -v sha1sum > /dev/null || alias sha1sum="shasum"
-
-# URL-encode strings
-alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
-
-# Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
@@ -30,9 +21,6 @@ eval "$(thefuck --alias)"
 
 # weather
 alias weather='curl wttr.in'
-
-# IP addresses
-alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
 # ip
 alias ip='curl https://ipinfo.io/ip'
