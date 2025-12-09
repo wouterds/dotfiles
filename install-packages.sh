@@ -9,31 +9,26 @@ brew install git
 brew install bash
 brew install zsh
 brew install nano
-brew install coreutils
-brew install grep
-brew install gpg
 brew install curl
 brew install wget
+brew install grep
+brew install neofetch
+brew install coreutils
+brew install gpg
 brew install python
 brew install rbenv
 brew install nvm
 brew install htop
 brew install ctop
+brew install bottom
 brew install screen
-brew install plow
 brew install watchman
 brew install ssh-copy-id
 brew install diff-so-fancy
 brew install thefuck
-brew install watch
 brew install speedtest-cli
 brew install mas
 brew install tig
-brew install neofetch
-brew install bottom
 brew install ngrok
-brew install --cask zulu11
-brew install android-commandlinetools
-brew install gradle
 brew install eza
 brew install --cask ghostty
