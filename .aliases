@@ -30,3 +30,6 @@ alias cleanbr='git branch | grep -v $(git rev-parse --abbrev-ref HEAD) | xargs g
 
 # fancy ls
 alias ls="eza"
+
+# nvm = fnm
+alias nvm="fnm"
