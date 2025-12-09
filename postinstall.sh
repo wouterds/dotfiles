@@ -6,15 +6,6 @@ touch ~/.android/repositories.cfg
 yes | sdkmanager --licenses
 sdkmanager "platforms;android-30" "cmdline-tools;latest" "build-tools;31.0.0"
 
-# Node
-mkdir ~/.nvm
-nvm install 18
-nvm use 18
-nvm alias default 18
-npm install -g yarn
-npm install -g papapackage
-npm install -g ios-deploy
-
 # Python
 pipx install pjson
 pipx install pygments
