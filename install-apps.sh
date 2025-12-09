@@ -23,6 +23,7 @@ brew install --cask monitorcontrol
 brew install --cask figma
 brew install --cask coconutbattery
 brew install --cask raycast
+brew install --cask ghostty
 
 # Mac App Store apps
 mas install 497799835 # Xcode

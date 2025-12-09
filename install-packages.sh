@@ -31,4 +31,3 @@ brew install mas
 brew install tig
 brew install ngrok
 brew install eza
-brew install --cask ghostty
