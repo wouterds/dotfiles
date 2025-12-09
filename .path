@@ -1,5 +1,5 @@
 # homebrew bins
 export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 
-# brew python
-export PATH=/opt/homebrew/opt/python/libexec/bin:$PATH
+# brew pipx
+export PATH=~/.local/bin:$PATH
