@@ -16,6 +16,7 @@ brew install neofetch
 brew install coreutils
 brew install gpg
 brew install python
+brew install pipx
 brew install rbenv
 brew install fnm
 brew install htop
