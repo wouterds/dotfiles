@@ -7,7 +7,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Packages
 brew install git
 brew install bash
-brew install zsh
+brew install zsh zsh-autosuggestions
 brew install nano
 brew install curl
 brew install wget
