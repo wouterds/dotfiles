@@ -1,15 +1,17 @@
 {
-  "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "GitHub Light",
   "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 26,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 24,
   "editor.renderWhitespace": "all",
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
   "editor.scrollBeyondLastLine": false,
   "editor.renderLineHighlight": "all",
-  "workbench.preferredDarkColorTheme": "GitHub Dark",
-  "workbench.preferredLightColorTheme": "GitHub Light",
-  "window.autoDetectColorScheme": true
+  "editor.inlineSuggest.enabled": true,
+  "diffEditor.codeLens": true,
+  "git.mergeEditor": false,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "window.systemColorTheme": "auto"
 }
