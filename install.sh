@@ -14,7 +14,6 @@ brew tap homebrew/cask-drivers
 # Install packages, drivers, apps & fonts
 ./install-packages.sh
 ./install-apps.sh
-./install-fonts.sh
 
 # Dotfiles
 rsync -avh --no-perms '.aliases' ~;
