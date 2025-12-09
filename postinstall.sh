@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-# Android
-mkdir ~/.android
-touch ~/.android/repositories.cfg
-yes | sdkmanager --licenses
-sdkmanager "platforms;android-30" "cmdline-tools;latest" "build-tools;31.0.0"
-
 # Python
 pipx install pjson
 pipx install pygments
