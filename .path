@@ -1,12 +1,5 @@
+# homebrew bins
 export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 
 # brew python
 export PATH=/opt/homebrew/opt/python/libexec/bin:$PATH
-
-# android sdk
-export ANDROID_HOME=/opt/homebrew/share/android-commandlinetools
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$ANDROID_HOME/build-tools/31.0.0
