@@ -45,9 +45,6 @@ code --install-extension dracula-theme.theme-dracula
 code --install-extension yoavbls.pretty-ts-errors
 rsync ./.vscode-settings.json ~/Library/Application\ Support/Code/User/settings.json
 
-# Nano
-curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
-
 # Terminal
 open wouterds.terminal
 
