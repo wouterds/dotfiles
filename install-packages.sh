@@ -33,3 +33,4 @@ brew install tig
 brew install ngrok
 brew install eza
 brew install rsync
+brew install gh
