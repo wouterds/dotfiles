@@ -26,6 +26,7 @@ brew install --cask raycast
 brew install --cask ghostty
 brew install --cask chatgpt
 brew install --cask chromium --no-quarantine
+brew install --cask stats
 
 # Mac App Store apps
 mas install 497799835 # Xcode
