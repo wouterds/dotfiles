@@ -21,6 +21,7 @@ brew install rbenv
 brew install fnm
 brew install htop
 brew install ctop
+brew install btop
 brew install bottom
 brew install screen
 brew install watchman
