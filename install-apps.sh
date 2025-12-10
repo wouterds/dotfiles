@@ -28,6 +28,7 @@ brew install --cask chatgpt
 brew install --cask chromium --no-quarantine
 brew install --cask stats
 brew install --cask messenger
+brew install --cask whatsapp
 
 # Mac App Store apps
 mas install 497799835 # Xcode
