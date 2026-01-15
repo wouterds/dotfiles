@@ -29,6 +29,7 @@ brew install --cask chromium --no-quarantine
 brew install --cask stats
 brew install --cask messenger
 brew install --cask whatsapp
+brew install --cask steipete/tap/codexbar
 
 # Mac App Store apps
 mas install 497799835 # Xcode
