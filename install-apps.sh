@@ -27,7 +27,6 @@ brew install --cask ghostty
 brew install --cask chatgpt
 brew install --cask chromium --no-quarantine
 brew install --cask stats
-brew install --cask messenger
 brew install --cask whatsapp
 brew install --cask steipete/tap/codexbar
 
