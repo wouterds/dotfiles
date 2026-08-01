@@ -7,7 +7,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Apps
 brew install --cask dropbox
 brew install --cask visual-studio-code
-brew install --cask cursor
 brew install --cask orbstack
 brew install --cask proxyman
 brew install --cask keepingyouawake
