@@ -35,3 +35,4 @@ brew install ngrok
 brew install eza
 brew install rsync
 brew install gh
+brew install gcloud-cli
