@@ -15,7 +15,6 @@ brew install --cask bartender
 brew install --cask appcleaner
 brew install --cask discord
 brew install --cask spotify
-brew install --cask vlc
 brew install --cask handbrake
 brew install --cask notion
 brew install --cask tableplus
