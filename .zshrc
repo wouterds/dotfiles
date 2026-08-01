@@ -130,6 +130,6 @@ export GPG_TTY=$(tty)
 # Load fnm (nvm like but in rust)
 eval "$(fnm env --use-on-cd --shell zsh)"
 
-# neofetch
+# fastfetch
 echo "\n"
-neofetch
+fastfetch
