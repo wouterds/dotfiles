@@ -27,7 +27,6 @@ brew install watchman
 brew install ssh-copy-id
 brew install diff-so-fancy
 brew install thefuck
-brew install speedtest-cli
 brew install mas
 brew install tig
 brew install ngrok
