@@ -12,6 +12,7 @@ brew install nano
 brew install curl
 brew install wget
 brew install grep
+brew install fastfetch
 brew install coreutils
 brew install gpg
 brew install python
