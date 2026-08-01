@@ -30,6 +30,10 @@ brew install --cask medis
 brew install --cask whatsapp
 brew install --cask steipete/tap/codexbar
 
+# Fonts
+brew install --cask font-hack
+brew install --cask font-hack-nerd-font
+
 # Mac App Store apps
 mas install 497799835 # Xcode
 mas install 425424353 # The Unarchiver
