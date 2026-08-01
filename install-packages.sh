@@ -24,6 +24,7 @@ brew install htop
 brew install ctop
 brew install btop
 brew install bottom
+brew install dust
 brew install screen
 brew install watchman
 brew install ssh-copy-id
