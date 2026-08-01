@@ -22,6 +22,7 @@ brew install --cask figma
 brew install --cask coconutbattery
 brew install --cask raycast
 brew install --cask ghostty
+brew install --cask firefox
 brew install --cask chatgpt
 brew install --cask claude
 brew install --cask stats
