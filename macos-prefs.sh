@@ -10,9 +10,9 @@ sudo scutil --set HostName "macbook-air-wouterds"
 sudo scutil --set LocalHostName "macbook-air-wouterds"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "macbook-air-wouterds"
 
-# Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
+# Fast keyboard repeat, one notch off minimum so a dropped wireless key-up doesn't duplicate chars
+defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain InitialKeyRepeat -int 25
 
 # Save screenshots in JPG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "jpg"
