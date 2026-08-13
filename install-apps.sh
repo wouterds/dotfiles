@@ -48,3 +48,4 @@ mas install 1287239339 # ColorSlurp
 mas install 1543920362 # Displaperture
 mas install 1365531024 # 1Blocker
 mas install 905953485 # NordVPN
+mas install 937984704 # Amphetamine
