@@ -9,7 +9,6 @@ brew install --cask dropbox
 brew install --cask visual-studio-code
 brew install --cask orbstack
 brew install --cask proxyman
-brew install --cask keepingyouawake
 brew install --cask bartender
 brew install --cask appcleaner
 brew install --cask discord
