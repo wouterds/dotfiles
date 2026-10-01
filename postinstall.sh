@@ -2,7 +2,6 @@
 
 # Python
 pipx install pjson
-pipx install pygments
 
 # VSCode
 code --install-extension dbaeumer.vscode-eslint
