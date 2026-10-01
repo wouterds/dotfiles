@@ -6,7 +6,6 @@
 	email = wouter.de.schuyter@gmail.com
 
 [alias]
-	diff = diff --color --color-words --abbrev
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(blue) <%an>%Creset' --abbrev-commit
 	tags = tag -l
 	branches = branch -a
