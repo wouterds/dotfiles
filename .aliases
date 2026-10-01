@@ -13,8 +13,8 @@ command -v sha1sum > /dev/null || alias sha1sum="shasum"
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-# Pretty cat
-alias cat="pygmentize -g -O style=monokai"
+# Pretty cat (plain, no pager, colors only on a tty)
+alias cat="bat -pp"
 
 # The Fuck
 eval "$(thefuck --alias)"
