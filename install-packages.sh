@@ -28,7 +28,7 @@ brew install dust
 brew install screen
 brew install watchman
 brew install ssh-copy-id
-brew install diff-so-fancy
+brew install git-delta
 brew install thefuck
 brew install mas
 brew install tig
