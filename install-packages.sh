@@ -16,7 +16,6 @@ brew install fastfetch
 brew install coreutils
 brew install gpg
 brew install python
-brew install pipx
 brew install uv
 brew install rbenv
 brew install fnm
