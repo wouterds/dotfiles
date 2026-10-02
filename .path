@@ -1,5 +1,5 @@
 # homebrew bins
 export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 
-# brew pipx
+# uv tools & claude
 export PATH=~/.local/bin:$PATH
