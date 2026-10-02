@@ -16,8 +16,9 @@ alias reload="exec $SHELL -l"
 # Pretty cat (plain, no pager, colors only on a tty)
 alias cat="bat -pp"
 
-# The Fuck
-eval "$(thefuck --alias)"
+# Pay Respects
+export _PR_AI_DISABLE=1
+eval "$(pay-respects zsh --alias fuck)"
 
 # weather
 alias weather='curl wttr.in'
