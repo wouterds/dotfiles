@@ -24,7 +24,6 @@ brew install --cask firefox
 brew install --cask chatgpt
 brew install --cask claude
 brew install --cask stats
-brew install --cask medis
 brew install --cask whatsapp
 brew install --cask steipete/tap/codexbar
 brew install --cask cloudflare-warp
