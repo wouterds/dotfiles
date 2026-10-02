@@ -29,7 +29,7 @@ brew install screen
 brew install watchman
 brew install ssh-copy-id
 brew install git-delta
-brew install thefuck
+brew install timescam/homebrew-tap/pay-respects
 brew install mas
 brew install tig
 brew install ngrok
