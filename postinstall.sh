@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Python
-pipx install pjson
-
 # VSCode
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension GitHub.github-vscode-theme
