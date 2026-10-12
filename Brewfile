@@ -78,3 +78,22 @@ mas "Displaperture", id: 1543920362
 mas "1Blocker", id: 1365531024
 mas "NordVPN", id: 905953485
 mas "Amphetamine", id: 937984704
+
+# VS Code extensions
+vscode "dbaeumer.vscode-eslint"
+vscode "GitHub.github-vscode-theme"
+vscode "eamodio.gitlens"
+vscode "editorconfig.editorconfig"
+vscode "naumovs.color-highlight"
+vscode "mikestead.dotenv"
+vscode "christian-kohler.npm-intellisense"
+vscode "jpoissonnier.vscode-styled-components"
+vscode "wix.vscode-import-cost"
+vscode "mechatroner.rainbow-csv"
+vscode "earshinov.permute-lines"
+vscode "redhat.vscode-yaml"
+vscode "cpylua.language-postcss"
+vscode "stylelint.vscode-stylelint"
+vscode "jianbingfang.dupchecker"
+vscode "dracula-theme.theme-dracula"
+vscode "yoavbls.pretty-ts-errors"
