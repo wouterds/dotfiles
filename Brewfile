@@ -32,6 +32,7 @@ brew "eza"
 brew "bat"
 brew "rsync"
 brew "gh"
+brew "cloudflared"
 cask "gcloud-cli"
 
 # Apps
