@@ -107,12 +107,6 @@ fi
 # zsh-autosuggestions plugin
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# rbenv
-eval "$(rbenv init - zsh)"
-
-# ruby gems
-export PATH="$(ruby -r rubygems -e 'puts Gem.bindir'):$PATH"
-
 # Sync history across workstations using Dropbox
 HISTFILE=~/Dropbox/dotfiles/zsh-history
 
