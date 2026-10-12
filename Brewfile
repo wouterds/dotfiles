@@ -35,6 +35,7 @@ brew "gh"
 brew "cloudflared"
 brew "go"
 brew "gh-ost"
+brew "solana"
 cask "gcloud-cli"
 
 # Apps
