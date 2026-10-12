@@ -1,5 +1,6 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+# PATH first, so anything added further down takes precedence
+typeset -U path
+source ~/.path
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -106,9 +107,6 @@ fi
 # zsh-autosuggestions plugin
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# brew curl
-export PATH="/opt/homebrew/opt/curl/bin:$PATH"
-
 # rbenv
 eval "$(rbenv init - zsh)"
 
@@ -119,7 +117,7 @@ export PATH="$(ruby -r rubygems -e 'puts Gem.bindir'):$PATH"
 HISTFILE=~/Dropbox/dotfiles/zsh-history
 
 # Load custom dotfiles
-for file in ~/.{exports,path,aliases,functions}; do
+for file in ~/.{exports,aliases,functions}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

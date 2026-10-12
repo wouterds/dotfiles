@@ -1,5 +1,8 @@
-# homebrew bins
-export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# brew curl
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 
 # uv tools & claude
 export PATH=~/.local/bin:$PATH
