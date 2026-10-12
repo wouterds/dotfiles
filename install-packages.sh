@@ -17,7 +17,6 @@ brew install coreutils
 brew install gpg
 brew install python
 brew install uv
-brew install rbenv
 brew install fnm
 brew install htop
 brew install ctop
