@@ -1,0 +1,80 @@
+tap "steipete/tap"
+tap "timescam/tap"
+
+# Packages
+brew "git"
+brew "bash"
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "nano"
+brew "curl"
+brew "wget"
+brew "grep"
+brew "fastfetch"
+brew "coreutils"
+brew "gpg"
+brew "python"
+brew "uv"
+brew "fnm"
+brew "htop"
+brew "ctop"
+brew "btop"
+brew "bottom"
+brew "dust"
+brew "screen"
+brew "watchman"
+brew "ssh-copy-id"
+brew "git-delta"
+brew "timescam/tap/pay-respects"
+brew "mas"
+brew "tig"
+brew "eza"
+brew "bat"
+brew "rsync"
+brew "gh"
+cask "gcloud-cli"
+
+# Apps
+cask "dropbox"
+cask "visual-studio-code"
+cask "orbstack"
+cask "proxyman"
+cask "appcleaner"
+cask "discord"
+cask "spotify"
+cask "handbrake-app"
+cask "notion"
+cask "tableplus"
+cask "monitorcontrol"
+cask "figma"
+cask "coconutbattery"
+cask "raycast"
+cask "ghostty"
+cask "firefox"
+cask "chatgpt"
+cask "claude"
+cask "stats"
+cask "whatsapp"
+cask "steipete/tap/codexbar"
+cask "cloudflare-warp"
+
+# Fonts
+cask "font-hack"
+cask "font-hack-nerd-font"
+
+# Mac App Store apps
+mas "Xcode", id: 497799835
+mas "The Unarchiver", id: 425424353
+mas "DaisyDisk", id: 411643860
+mas "Slack", id: 803453959
+mas "Yoink", id: 457622435
+mas "Speedtest", id: 1153157709
+mas "Keynote", id: 409183694
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+mas "Parcel", id: 639968404
+mas "ColorSlurp", id: 1287239339
+mas "Displaperture", id: 1543920362
+mas "1Blocker", id: 1365531024
+mas "NordVPN", id: 905953485
+mas "Amphetamine", id: 937984704
