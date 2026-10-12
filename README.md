@@ -8,6 +8,14 @@ Personal preferences, apps, tools and more.
 - Homebrew installed
 - Logged in into App Store
 
+## Install
+
+```sh
+./install.sh
+```
+
+Packages, apps, fonts, Mac App Store apps and VS Code extensions live in the `Brewfile`. Re-run `brew bundle` to install anything missing, `brew bundle check` to see what's missing, and `brew bundle cleanup` to list what's installed but not in the `Brewfile`.
+
 ## PATH
 
 `.zshrc` sources `.path` first (Homebrew via `brew shellenv`, brew `curl`, `~/.local/bin`). Anything added further down (fnm, bun, …) is prepended on top, and `typeset -U path` drops duplicates. Don't hardcode system dirs like `/usr/bin` in `.path`, it pushes them in front of Homebrew.
