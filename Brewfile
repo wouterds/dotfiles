@@ -76,7 +76,7 @@ mas "DaisyDisk", id: 411643860
 mas "Slack", id: 803453959
 mas "Yoink", id: 457622435
 mas "Speedtest", id: 1153157709
-mas "Keynote", id: 409183694
+mas "Keynote", id: 361285480
 mas "Pages", id: 409201541
 mas "Numbers", id: 409203825
 mas "Parcel", id: 639968404
