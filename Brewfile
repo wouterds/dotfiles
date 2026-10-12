@@ -62,6 +62,7 @@ cask "whatsapp"
 cask "steipete/tap/codexbar"
 cask "cloudflare-warp"
 cask "codex"
+cask "t3-code"
 
 # Fonts
 cask "font-hack"
