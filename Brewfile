@@ -63,6 +63,7 @@ cask "steipete/tap/codexbar"
 cask "cloudflare-warp"
 cask "codex"
 cask "t3-code"
+cask "tradingview"
 
 # Fonts
 cask "font-hack"
