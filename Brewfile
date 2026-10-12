@@ -34,6 +34,7 @@ brew "rsync"
 brew "gh"
 brew "cloudflared"
 brew "go"
+brew "gh-ost"
 cask "gcloud-cli"
 
 # Apps
