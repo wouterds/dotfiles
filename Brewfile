@@ -33,6 +33,7 @@ brew "bat"
 brew "rsync"
 brew "gh"
 brew "cloudflared"
+brew "go"
 cask "gcloud-cli"
 
 # Apps
