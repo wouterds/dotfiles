@@ -30,7 +30,6 @@ brew install git-delta
 brew install timescam/homebrew-tap/pay-respects
 brew install mas
 brew install tig
-brew install ngrok
 brew install eza
 brew install bat
 brew install rsync
