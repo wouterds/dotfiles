@@ -7,9 +7,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # macOS preferences
 ./macos-prefs.sh
 
-# Install packages, drivers, apps & fonts
-./install-packages.sh
-./install-apps.sh
+# Install packages, apps & fonts
+brew bundle --file=Brewfile
 
 # Dotfiles
 rsync -avh --no-perms '.aliases' ~;
