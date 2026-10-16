@@ -125,6 +125,9 @@ eval "$(fnm env --use-on-cd --shell zsh)"
 # fzf (ctrl+r history, ctrl+t files)
 source <(fzf --zsh)
 
+# zoxide (z <dir>)
+eval "$(zoxide init zsh)"
+
 # fastfetch
 echo "\n"
 fastfetch
