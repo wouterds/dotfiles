@@ -41,8 +41,8 @@
 	ui = true
 
 [delta]
+	features = diff-so-fancy
 	navigate = true
-	line-numbers = true
 
 [merge]
 	conflictStyle = zdiff3
