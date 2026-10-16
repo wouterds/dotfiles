@@ -1,0 +1,21 @@
+# theme
+theme = light:GitHub, dark:GitHub Dark
+theme = GitHub Dark
+unfocused-split-opacity=0.9
+background = #000
+
+# font
+font-family = "Hack"
+font-thicken = true
+font-size = 12
+
+# window
+window-height = 28
+window-width = 100
+
+# block cursor
+shell-integration-features = no-cursor
+
+# get nightly builds
+#auto-update-channel = tip
+
