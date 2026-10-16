@@ -122,6 +122,9 @@ export GPG_TTY=$(tty)
 # Load fnm (nvm like but in rust)
 eval "$(fnm env --use-on-cd --shell zsh)"
 
+# fzf (ctrl+r history, ctrl+t files)
+source <(fzf --zsh)
+
 # fastfetch
 echo "\n"
 fastfetch
