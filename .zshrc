@@ -107,14 +107,16 @@ fi
 # zsh-autosuggestions plugin
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Sync history across workstations using Dropbox
-HISTFILE=~/Dropbox/dotfiles/zsh-history
-
 # Load custom dotfiles
 for file in ~/.{exports,aliases,functions}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+# Sync history across workstations using Dropbox
+HISTFILE=~/Dropbox/dotfiles/zsh-history
+HISTSIZE=100000
+SAVEHIST=50000
 
 # gpg pinentry support
 export GPG_TTY=$(tty)
