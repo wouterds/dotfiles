@@ -48,6 +48,7 @@ brew "cloudflared"
 brew "go"
 brew "gh-ost"
 brew "solana"
+brew "git-lfs"
 cask "gcloud-cli"
 
 # Apps
