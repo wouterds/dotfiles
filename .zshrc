@@ -140,3 +140,6 @@ fastfetch
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude-mem='/Users/wouterds/.bun/bin/bun "/Users/wouterds/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
+
