@@ -49,6 +49,7 @@ brew "go"
 brew "gh-ost"
 brew "solana"
 brew "git-lfs"
+brew "jq"
 cask "gcloud-cli"
 
 # Apps
