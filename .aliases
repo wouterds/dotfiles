@@ -11,7 +11,7 @@ command -v md5sum > /dev/null || alias md5sum="md5"
 command -v sha1sum > /dev/null || alias sha1sum="shasum"
 
 # Reload the shell (i.e. invoke as a login shell)
-alias reload="exec $SHELL -l"
+alias reload='exec $SHELL -l'
 
 # Pretty cat (plain, no pager, colors only on a tty)
 alias cat="bat -pp"
