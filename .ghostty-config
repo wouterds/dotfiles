@@ -1,5 +1,5 @@
 # theme
-theme = light:GitHub, dark:GitHub Dark
+#theme = light:GitHub, dark:GitHub Dark
 theme = GitHub Dark
 unfocused-split-opacity=0.9
 background = #000
