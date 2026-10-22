@@ -50,6 +50,7 @@ brew "gh-ost"
 brew "solana"
 brew "git-lfs"
 brew "jq"
+brew "pinentry-mac"
 cask "gcloud-cli"
 
 # Apps
