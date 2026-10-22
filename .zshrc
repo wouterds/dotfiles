@@ -133,3 +133,10 @@ eval "$(zoxide init zsh)"
 # fastfetch
 echo "\n"
 fastfetch
+
+# bun completions
+[ -s "/Users/wouterds/.bun/_bun" ] && source "/Users/wouterds/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
