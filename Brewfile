@@ -95,7 +95,6 @@ mas "Speedtest", id: 1153157709
 mas "Keynote", id: 361285480
 mas "Pages", id: 361309726
 mas "Numbers", id: 361304891
-mas "Parcel", id: 639968404
 mas "ColorSlurp", id: 1287239339
 mas "Displaperture", id: 1543920362
 mas "1Blocker", id: 1365531024
