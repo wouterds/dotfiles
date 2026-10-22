@@ -143,3 +143,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 alias claude-mem='/Users/wouterds/.bun/bin/bun "/Users/wouterds/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
 
+
+# >>> grok installer >>>
+export PATH="$HOME/.grok/bin:$PATH"
+fpath=(~/.grok/completions/zsh $fpath)
+autoload -Uz compinit && compinit -C
+# <<< grok installer <<<
