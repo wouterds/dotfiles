@@ -22,5 +22,5 @@ strlen() {
 }
 
 uuid() {
-  echo $(uuidgen) | tr '[:upper:]' '[:lower:]'
+  uuidgen | tr '[:upper:]' '[:lower:]'
 }
