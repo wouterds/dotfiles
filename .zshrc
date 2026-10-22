@@ -8,12 +8,8 @@ ZSH_THEME="af-magic"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-        export EDITOR='nano'
-else
-        export EDITOR='nano'
-fi
+# Preferred editor
+export EDITOR='nano'
 
 # zsh-autosuggestions plugin
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
