@@ -37,9 +37,11 @@ source <(fzf --zsh)
 # zoxide (z <dir>)
 eval "$(zoxide init zsh)"
 
-# fastfetch
-echo "\n"
-fastfetch
+# fastfetch (login shells only)
+if [[ -o login ]]; then
+	echo "\n"
+	fastfetch
+fi
 
 # bun completions
 [ -s "/Users/wouterds/.bun/_bun" ] && source "/Users/wouterds/.bun/_bun"
