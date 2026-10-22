@@ -73,6 +73,7 @@ cask "stats"
 cask "whatsapp"
 cask "steipete/tap/codexbar"
 cask "cloudflare-warp"
+cask "nordvpn"
 cask "codex"
 cask "t3-code"
 cask "tradingview"
@@ -95,7 +96,6 @@ mas "Parcel", id: 639968404
 mas "ColorSlurp", id: 1287239339
 mas "Displaperture", id: 1543920362
 mas "1Blocker", id: 1365531024
-mas "NordVPN", id: 905953485
 mas "Amphetamine", id: 937984704
 
 # VS Code extensions
