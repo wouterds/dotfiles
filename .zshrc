@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='nano'
 
 # zsh-autosuggestions plugin
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Load custom dotfiles
 for file in ~/.{exports,aliases,functions}; do
