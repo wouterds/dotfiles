@@ -80,6 +80,7 @@ cask "nordvpn"
 cask "codex"
 cask "t3-code"
 cask "tradingview"
+cask "sonos"
 
 # Fonts
 cask "font-hack"
