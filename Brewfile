@@ -51,6 +51,7 @@ brew "solana"
 brew "git-lfs"
 brew "jq"
 brew "pinentry-mac"
+brew "ffmpeg"
 cask "gcloud-cli"
 
 # Apps
