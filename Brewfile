@@ -82,6 +82,7 @@ cask "codex"
 cask "t3-code"
 cask "tradingview"
 cask "sonos"
+cask "grok-bot"
 
 # Fonts
 cask "font-hack"
