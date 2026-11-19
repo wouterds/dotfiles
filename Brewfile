@@ -83,6 +83,7 @@ cask "t3-code"
 cask "tradingview"
 cask "sonos"
 cask "grok-bot"
+cask "bambu-studio"
 
 # Fonts
 cask "font-hack"
